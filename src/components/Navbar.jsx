@@ -19,7 +19,7 @@ const navLinks = [
   },
   {
     name: "Have a Query",
-    route: "/query",
+    route: "/queries",
   },
 ];
 
@@ -36,7 +36,7 @@ const startupDropdown = [
 
 const Navbar = () => {
   return (
-    <nav className="">
+    <nav className="border-b-2 border-b-primaryColor">
       <div className="lg:px-[5%] xl:px-[10%] mx-auto px-4 flex justify-between items-center gap-10 pb-4">
         <div className="gap-2 flex items-center">
           <img

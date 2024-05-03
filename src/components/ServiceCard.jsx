@@ -1,6 +1,6 @@
 const ServiceCard = ({ title, description, iconUrl, subItems }) => {
   return (
-    <li className="flex gap-4 w-[80%] mx-auto my-8">
+    <li className="flex gap-4 lg:w-[80%] mx-auto my-8">
       <div className="flex items-center justify-center h-fit w-[40px]  p-[9px] rounded text-white bg-secondaryColor-500">
         <img src={iconUrl} height="24" width="24" alt="service icon" />
       </div>

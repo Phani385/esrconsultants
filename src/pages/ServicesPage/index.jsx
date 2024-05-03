@@ -127,7 +127,7 @@ const ServicesPage = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      <section className="p-10 text-center w-[90%] mx-auto flex-1">
+      <section className="p-10 text-center lg:w-[90%] mx-auto flex-1">
         <h1 className="text-secondaryColor-500 mb-3 text-2xl uppercase font-bold text-center">
           Our Services
         </h1>

@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router-dom";
 import HomeServiceCard from "./HomeServiceCard";
 
 const ServicesSection = () => {
+  const navigate = useNavigate();
   return (
     <section className="services-section py-16 w-[80%] mx-auto">
       <h2 className="text-4xl font-bold text-secondaryColor-500 mb-4 text-center">
@@ -50,7 +52,12 @@ const ServicesSection = () => {
         />
       </div>
       <div className="flex justify-center mt-8">
-        <button className="bg-secondaryColor-500 text-white px-8 py-3 rounded hover:bg-secondaryColor-600">
+        <button
+          className="bg-secondaryColor-500 text-white px-8 py-3 rounded hover:bg-secondaryColor-600"
+          onClick={() => {
+            navigate("/services");
+          }}
+        >
           Explore More
         </button>
       </div>
