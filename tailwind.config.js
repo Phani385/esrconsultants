@@ -3,10 +3,13 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      colors:   {
-        'primaryColor': '#1f2937',
-        'secondaryColor': '#4f46e5'
-      }
+      colors: {
+        primaryColor: "#1f2937",
+        secondaryColor: {
+          500: "#4f46e5",
+          600: "#4f56e5",
+        },
+      },
     },
   },
   plugins: [require("daisyui")],
