@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+li{
+    list-style: disc;
+}
+
+li > a{
+    color: #2250FC;
+}

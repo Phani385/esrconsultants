@@ -1,4 +1,3 @@
-import React from "react";
 
 const HomeHeroSection = () => {
   return (
@@ -9,8 +8,8 @@ const HomeHeroSection = () => {
           "url(https://res.cloudinary.com/dv0oedkxm/image/upload/v1714631683/banner_cl8hjf.webp)",
       }}
     >
-      <div className="hero-overlay bg-opacity-60 z-20"></div>
-      <div className="hero-content text-center text-neutral-content z-30">
+      <div className="hero-overlay bg-opacity-60"></div>
+      <div className="hero-content text-center text-neutral-content">
         <div>
           <h1 className="mb-5 text-3xl font-bold lg:text-5xl">
             ESR Corpotate Consultants LLP

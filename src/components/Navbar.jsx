@@ -66,7 +66,7 @@ const Navbar = () => {
               <div>
                 {startupDropdown.map((name) => (
                   <li key={name}>
-                    <a>{name}</a>
+                    <a href="/proprietorship">{name}</a>
                   </li>
                 ))}
               </div>
