@@ -4,7 +4,7 @@ import HomeServiceCard from "./HomeServiceCard";
 const ServicesSection = () => {
   const navigate = useNavigate();
   return (
-    <section className="services-section py-16 w-[80%] mx-auto">
+    <section className="services-section py-16">
       <h2 className="text-4xl font-bold text-secondaryColor-500 mb-4 text-center">
         Our Services
       </h2>
@@ -23,17 +23,17 @@ const ServicesSection = () => {
         <HomeServiceCard
           title="Startup"
           description="Legal support for all your startup needs, from business registration to international expansion."
-          imageUrl="https://img.icons8.com/forma-light/24/ffffff/open-book.png"
+          imageUrl="https://img.icons8.com/ios/50/ffffff/company--v1.png"
         />
         <HomeServiceCard
           title="Registrations"
           description="Efficiently navigate the maze of registrations with our expert assistance, ensuring compliance and smooth operations."
-          imageUrl="https://img.icons8.com/metro/26/ffffff/scales.png"
+          imageUrl="https://img.icons8.com/ios/50/ffffff/signing-a-document.png"
         />
         <HomeServiceCard
           title="Trademark"
           description="Protect your brand with our comprehensive trademark services, from registration to renewal, ensuring your intellectual property rights are safeguarded worldwide."
-          imageUrl="https://img.icons8.com/forma-bold/24/ffffff/calculator.png"
+          imageUrl="https://img.icons8.com/pulsar-line/56/ffffff/trademark.png"
         />
         <HomeServiceCard
           title="Goods & Service Tax"
@@ -43,12 +43,12 @@ const ServicesSection = () => {
         <HomeServiceCard
           title="Income Tax"
           description="Streamline your income tax obligations with our tailored services, covering personal and business tax filing, TDS, and ITR returns for all forms."
-          imageUrl="https://img.icons8.com/windows/32/ffffff/security-checked.png"
+          imageUrl="https://img.icons8.com/ios-filled/50/ffffff/income-tax.png"
         />
         <HomeServiceCard
           title="Compliance"
           description="Stay compliant effortlessly with our comprehensive range of services, covering all aspects from company and LLP compliance to payroll and regulatory filings."
-          imageUrl="https://img.icons8.com/ios-filled/50/ffffff/museum.png"
+          imageUrl="https://img.icons8.com/ios/50/ffffff/inspection.png"
         />
       </div>
       <div className="flex justify-center mt-8">
@@ -64,5 +64,6 @@ const ServicesSection = () => {
     </section>
   );
 };
+
 
 export default ServicesSection;

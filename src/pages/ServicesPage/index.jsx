@@ -7,7 +7,7 @@ const serviceCardValues = [
     title: "Startup",
     description:
       "Legal support for all your startup needs, from business registration to international expansion.",
-    iconUrl: "https://img.icons8.com/forma-light/24/ffffff/open-book.png",
+    iconUrl: "https://img.icons8.com/ios/50/ffffff/company--v1.png",
     subItems: [
       "Proprietorship",
       "Partnership",
@@ -24,7 +24,7 @@ const serviceCardValues = [
     title: "Registrations",
     description:
       "Protect your brand with our comprehensive trademark services, from registration to renewal, ensuring your intellectual property rights are safeguarded worldwide.",
-    iconUrl: "https://img.icons8.com/metro/26/ffffff/scales.png",
+    iconUrl: "https://img.icons8.com/ios/50/ffffff/signing-a-document.png",
     subItems: [
       "Digital Signature",
       "Udyam Registration",
@@ -40,7 +40,7 @@ const serviceCardValues = [
     title: "Trademark",
     description:
       "Protect your brand with our comprehensive trademark services, from registration to renewal, ensuring your intellectual property rights are safeguarded worldwide.",
-    iconUrl: "https://img.icons8.com/forma-bold/24/ffffff/calculator.png",
+    iconUrl: "https://img.icons8.com/pulsar-line/56/ffffff/trademark.png",
     subItems: [
       "Trademark Registration",
       "Trademark Objection",
@@ -75,7 +75,7 @@ const serviceCardValues = [
     title: "Income Tax",
     description:
       "Streamline your income tax obligations with our tailored services, covering personal and business tax filing, TDS, and ITR returns for all forms.",
-    iconUrl: "https://img.icons8.com/windows/32/ffffff/security-checked.png",
+    iconUrl: "https://img.icons8.com/ios-filled/50/ffffff/income-tax.png",
     subItems: [
       "Personal Tax Filing",
       "Business Tax Filing",
@@ -95,7 +95,7 @@ const serviceCardValues = [
     title: "Compliance",
     description:
       "Stay compliant effortlessly with our comprehensive range of services, covering all aspects from company and LLP compliance to payroll and regulatory filings.",
-    iconUrl: "https://img.icons8.com/ios-filled/50/ffffff/museum.png",
+    iconUrl: "https://img.icons8.com/ios/50/ffffff/inspection.png",
     subItems: [
       "Proprietorship",
       "Partnership",

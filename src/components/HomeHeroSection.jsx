@@ -1,15 +1,15 @@
-
 const HomeHeroSection = () => {
   return (
     <div
-      className="hero h-[88.6vh] lg:h-[83.8vh]"
+      className="relative hero h-[88.6vh] lg:h-[83.8vh]"
       style={{
         backgroundImage:
           "url(https://res.cloudinary.com/dv0oedkxm/image/upload/v1714631683/banner_cl8hjf.webp)",
       }}
     >
+      <div className="blur z-10"></div>
       <div className="hero-overlay bg-opacity-60"></div>
-      <div className="hero-content text-center text-neutral-content">
+      <div className="hero-content text-center text-white z-20">
         <div>
           <h1 className="mb-5 text-3xl font-bold lg:text-5xl">
             ESR Corpotate Consultants LLP
