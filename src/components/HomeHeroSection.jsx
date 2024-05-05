@@ -1,40 +1,32 @@
+import React, { useState, useEffect } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import HeroPage from "./HeroPage";
+
+const ImageUrls = [
+  "https://res.cloudinary.com/dv0oedkxm/image/upload/v1714631683/banner_cl8hjf.webp",
+  "https://images.pexels.com/photos/3184395/pexels-photo-3184395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  // Add more image URLs as needed
+];
+
 const HomeHeroSection = () => {
+  const [imageUrlIndex, setImageUrlIndex] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      // Increment imageUrlIndex, loop back to 0 if it reaches the end
+      setImageUrlIndex((prevIndex) =>
+        prevIndex === ImageUrls.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 10000); // 30 seconds interval
+
+    return () => clearInterval(intervalId); // Cleanup function
+  }, []); // Empty dependency array to run only once on component mount
+
   return (
-    <div
-      className="relative hero h-[88.6vh] lg:h-[83.8vh]"
-      style={{
-        backgroundImage:
-          "url(https://res.cloudinary.com/dv0oedkxm/image/upload/v1714631683/banner_cl8hjf.webp)",
-      }}
-    >
-      <div className="blur z-10"></div>
-      <div className="hero-overlay bg-opacity-60"></div>
-      <div className="hero-content text-center text-white z-20">
-        <div>
-          <h1 className="mb-5 text-3xl font-bold lg:text-5xl">
-            ESR Corpotate Consultants LLP
-            <br />{" "}
-            <span className="text-secondaryColor-500">
-              Quality is our business plan
-            </span>
-          </h1>
-          <p className="mb-3 lg:mb-5">
-            A Reputed Tax Consultant & Chartered Accountant, who has helped many
-            individuals / organizations to establish business in india
-          </p>
-          <p className="mb-3 lg:mb-5">
-            Our team of chartered accountants represents a coalition of
-            specialized skills that is geared to offer sound financial solutions
-            and advices . The organization is a congregation of professionally
-            qualified and experienced persons who are committed to add value and
-            optimize the benefits accruing to clients.
-          </p>
-          <div className="flex flex-col gap-4 lg:flex-row justify-center">
-            <button className="btn btn-primary">Contact Us</button>
-            <button className="btn btn-primary">Our Services</button>
-          </div>
-        </div>
-      </div>
+    <div className="flex-1 bg-blue-500">
+      <HeroPage imageUrl={ImageUrls[imageUrlIndex]} />
     </div>
   );
 };

@@ -38,8 +38,8 @@ const startupDropdown = [
 const Navbar = () => {
   return (
     <nav className="border-b-2 border-b-primaryColor">
-      <Link to="/">
-        <div className="lg:px-[5%] xl:px-[10%] mx-auto px-4 flex justify-between items-center gap-10 pb-4">
+      <div className="lg:px-[5%] xl:px-[10%] mx-auto px-4 flex justify-between items-center gap-10 pb-4">
+        <Link to="/">
           <div className="gap-2 flex items-center">
             <img
               src="https://res.cloudinary.com/dv0oedkxm/image/upload/v1714631670/esrConsultancy_gwk7f0.png"
@@ -49,13 +49,14 @@ const Navbar = () => {
               ESR Corpotate Consultants LLP
             </h2>
           </div>
-          <ul className="hidden lg:flex justify-between items-center flex-1 mt-4 lg:max-w-[50%] min-[1440px]:max-w-[40%]">
-            {navLinks.map((link) => (
-              <NavLink linkDetails={link} key={link.name} />
-            ))}
-          </ul>
-        </div>
-      </Link>
+        </Link>
+        <ul className="hidden lg:flex justify-between items-center flex-1 mt-4 lg:max-w-[50%] min-[1440px]:max-w-[40%]">
+          {navLinks.map((link) => (
+            <NavLink linkDetails={link} key={link.name} />
+          ))}
+        </ul>
+      </div>
+
       <div className="hidden lg:block px-[5%] xl:px-[10%] mx-auto py-3 bg-primaryColor">
         <ul className="text-white flex w-[80%] justify-between xl:w-[70%] min-[1440px]:w-[60%]">
           <div className="dropdown dropdown-hover">

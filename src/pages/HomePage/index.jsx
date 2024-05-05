@@ -8,8 +8,10 @@ import "./index.css";
 const Home = () => {
   return (
     <div>
-      <Navbar />
-      <HomeHeroSection />
+      <div className="h-screen flex flex-col">
+        <Navbar />
+        <HomeHeroSection />
+      </div>
       <section className="w-[80%] mx-auto">
         <ServicesSection />
         <div className="relative">

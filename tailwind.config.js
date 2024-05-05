@@ -6,7 +6,7 @@ export default {
       colors: {
         primaryColor: "#1f2937",
         secondaryColor: {
-          500: "#4f46e5",
+          500: "#5e2119",
           600: "#4f56e5",
         },
       },
