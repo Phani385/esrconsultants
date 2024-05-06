@@ -7,7 +7,7 @@ export default {
         primaryColor: "#1f2937",
         secondaryColor: {
           500: "#5e2119",
-          600: "#4f56e5",
+          600: "#551e17",
         },
       },
     },

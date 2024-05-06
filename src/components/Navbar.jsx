@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import NavLink from "../components/NavLink";
+import Dropdown from "./Dropdown";
 
 const navLinks = [
   {
@@ -24,15 +25,314 @@ const navLinks = [
   },
 ];
 
-const startupDropdown = [
-  "Proprietorship",
-  "Partnership",
-  "One Person Company",
-  "Limited Liability Company",
-  "Check Company or LLP Name Avalibility",
-  "Section 8 company",
-  "Nidhi Company",
-  "Indian Subsidary",
+const dropdownLists = [
+  {
+    mainTitle: "Startup",
+    items: [
+      [
+        {
+          title: "Proprietorship",
+          path: "/proprietorship",
+        },
+        {
+          title: "Partnership",
+          path: "/partnership",
+        },
+        {
+          title: "One Person Company",
+          path: "/one-person-company",
+        },
+        {
+          title: "Limited Liability Company",
+          path: "/limited-liability-company",
+        },
+        {
+          title: "Check Company or LLP Name Avalibility",
+          path: "check-company-or-llp-name-avalibility",
+        },
+      ],
+      [
+        {
+          title: "Section 8 company",
+          path: "/section-8-company",
+        },
+        {
+          title: "Nidhi Company",
+          path: "/nidhi-company",
+        },
+        {
+          title: "Indian Subsidary",
+          path: "/indian-subsidary",
+        },
+      ],
+    ],
+  },
+  {
+    mainTitle: "Registrations",
+    items: [
+      [
+        {
+          title: "Digital Signature",
+          path: "/digital-signature",
+        },
+        {
+          title: "Udyam Registration",
+          path: "/udyam-registration",
+        },
+        {
+          title: "Startup India Registration",
+          path: "/startup-india-registration",
+        },
+        {
+          title: "FSSAI Registration",
+          path: "/fssai-registration",
+        },
+        {
+          title: "Professional Tax",
+          path: "/professional-tax",
+        },
+      ],
+      [
+        {
+          title: "Barcode Registration",
+          path: "/barcode-registration",
+        },
+        {
+          title: "RCMC Registration",
+          path: "/rcmc-registration",
+        },
+        {
+          title: "Import Certificate",
+          path: "/import-certificate",
+        },
+      ],
+    ],
+  },
+  {
+    mainTitle: "Trademark",
+    items: [
+      [
+        {
+          title: "Trademark Registration",
+          path: "/trademark-registration",
+        },
+        {
+          title: "Trademark Objection",
+          path: "/trademark-objection",
+        },
+        {
+          title: "Trademark Opposition",
+          path: "/trademark-opposition",
+        },
+        {
+          title: "Find Trademark for Over 8000 goods and services",
+          path: "/find-trademark-for-over-8000-goods-and-services",
+        },
+      ],
+      [
+        {
+          title: "Trademark Renewal",
+          path: "/trademark-renewal",
+        },
+        {
+          title: "Copyright Registration",
+          path: "/copyright-registration",
+        },
+        {
+          title: "Design Registration",
+          path: "/design-registration",
+        },
+        {
+          title: "Patent Registration",
+          path: "/patent-registration",
+        },
+      ],
+    ],
+  },
+  {
+    mainTitle: "Goods & Service Tax",
+    items: [
+      [
+        {
+          title: "GST Registration",
+          path: "/gst-registration",
+        },
+        {
+          title: "GST Return Filing",
+          path: "/gst-return-filing",
+        },
+        {
+          title: "GST LUT Filing",
+          path: "/gst-lut-filing",
+        },
+        {
+          title: "GST Registration Cancellation",
+          path: "/gst-registration-cancellation",
+        },
+        {
+          title: "GST Annual Return",
+          path: "/gst-annual-return",
+        },
+      ],
+      [
+        {
+          title: "GST Invoicing",
+          path: "/gst-invoicing",
+        },
+        {
+          title: "GST eInvoicing",
+          path: "/gst-einvoicing",
+        },
+        {
+          title: "Input Tax Credit",
+          path: "/input-tax-credit",
+        },
+        {
+          title: "GST Software for Accountants",
+          path: "/gst-software-for-accountants",
+        },
+      ],
+    ],
+  },
+  {
+    mainTitle: "Income Tax",
+    items: [
+      [
+        {
+          title: "Personal Tax Filing",
+          path: "/personal-tax-filing",
+        },
+        {
+          title: "Business Tax Filing",
+          path: "/business-tax-filing",
+        },
+        {
+          title: "Tax Notice",
+          path: "/tax-notice",
+        },
+        {
+          title: "TDS Filing",
+          path: "/tds-filing",
+        },
+      ],
+      [
+        {
+          title: "ITR-1 Return",
+          path: "/itr-1-return",
+        },
+        {
+          title: "ITR-2 Return",
+          path: "/itr-2-return",
+        },
+        {
+          title: "ITR-3 Return",
+          path: "/itr-3-return",
+        },
+        {
+          title: "ITR-4 Return",
+          path: "/itr-4-return",
+        },
+      ],
+      [
+        {
+          title: "ITR 5 Return",
+          path: "/itr-5-return",
+        },
+        {
+          title: "ITR 6 Return",
+          path: "/itr-6-return",
+        },
+        {
+          title: "ITR 7 Return",
+          path: "/itr-7-return",
+        },
+        {
+          title: "Form 16",
+          path: "/form-16",
+        },
+      ],
+    ],
+  },
+  {
+    mainTitle: "Compliance",
+    styles: "dropdown-end",
+    items: [
+      [
+        {
+          title: "Proprietorship",
+          path: "/proprietorship",
+        },
+        {
+          title: "Partnership",
+          path: "/partnership",
+        },
+        {
+          title: "Company",
+          path: "/company",
+        },
+        {
+          title: "LLP Compliance",
+          path: "/llp-compliance",
+        },
+        {
+          title: "Payroll",
+          path: "/payroll",
+        },
+      ],
+      [
+        {
+          title: "PF Registration",
+          path: "/pf-registration",
+        },
+        {
+          title: "PF Return Filing",
+          path: "/pf-return-filing",
+        },
+        {
+          title: "ESI Registration",
+          path: "/esi-registration",
+        },
+        {
+          title: "Share Transfer",
+          path: "/share-transfer",
+        },
+        {
+          title: "DIR-3 KYC",
+          path: "/dir-3-kyc",
+        },
+        {
+          title: "OPL",
+          path: "/opl",
+        },
+      ],
+      [
+        {
+          title: "Add Directors",
+          path: "/add-directors",
+        },
+        {
+          title: "Remove Directors",
+          path: "/remove-directors",
+        },
+        {
+          title: "Registered Office Change",
+          path: "/registered-office-change",
+        },
+        {
+          title: "Increase Authorized Capital",
+          path: "/increase-authorized-capital",
+        },
+        {
+          title: "Winding Up of Company",
+          path: "/winding-up-of-company",
+        },
+        {
+          title: "Business Loans",
+          path: "/business-loans",
+        },
+      ],
+    ],
+  },
 ];
 
 const Navbar = () => {
@@ -59,28 +359,12 @@ const Navbar = () => {
 
       <div className="hidden lg:block px-[5%] xl:px-[10%] mx-auto py-3 bg-primaryColor">
         <ul className="text-white flex w-[80%] justify-between xl:w-[70%] min-[1440px]:w-[60%]">
-          <div className="dropdown dropdown-hover">
-            <div tabIndex={0} role="button" className="font-semibold">
-              Startup
-            </div>
-            <ul
-              tabIndex={0}
-              className="dropdown-content z-[1] menu p-2 shadow bg-base-100 text-black rounded-box w-52"
-            >
-              <div>
-                {startupDropdown.map((name) => (
-                  <li key={name}>
-                    <a href="/proprietorship">{name}</a>
-                  </li>
-                ))}
-              </div>
-            </ul>
-          </div>
-          <li className="font-semibold">Registration</li>
-          <li className="font-semibold">Trademark</li>
-          <li className="font-semibold">Goods & Service Tax</li>
-          <li className="font-semibold">Income tax</li>
-          <li className="font-semibold">Compliance</li>
+          {dropdownLists.map((dropdownList) => (
+            <Dropdown
+              dropdownList={dropdownList}
+              key={dropdownList.mainTitle}
+            />
+          ))}
         </ul>
       </div>
     </nav>

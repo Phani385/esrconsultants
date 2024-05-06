@@ -9,7 +9,7 @@ const HeroPage = ({ imageUrl }) => {
     >
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="text-center text-white w-[90%] lg:w-[60%]">
-        <h1 className="mb-5 text-3xl font-bold text-white lg:text-5xl">
+        <h1 className="mb-5 text-3xl font-bold text-white lg:text-4xl xl:text-5xl">
           ESR Corpotate Consultants LLP
           <br />{" "}
           <span className="text-secondaryColor-500">
@@ -28,8 +28,12 @@ const HeroPage = ({ imageUrl }) => {
           optimize the benefits accruing to clients.
         </p>
         <div className="flex flex-col gap-4 lg:flex-row justify-center">
-          <button className="btn btn-primary">Contact Us</button>
-          <button className="btn btn-primary">Our Services</button>
+          <button className="btn border-none text-white bg-secondaryColor-500 mx-auto w-full md:w-[60%] lg:w-fit lg:mx-0">
+            Contact Us
+          </button>
+          <button className="btn border-none text-white   bg-secondaryColor-500 mx-auto w-full md:w-[60%] lg:w-fit lg:mx-0">
+            Our Services
+          </button>
         </div>
       </div>
     </div>

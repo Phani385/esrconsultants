@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 
 const ListPoint = ({ heading, description }) => {
   return (
@@ -8,9 +8,5 @@ const ListPoint = ({ heading, description }) => {
   );
 };
 
-ListPoint.propTypes = {
-  heading: String,
-  description: String,
-};
 
 export default ListPoint;
