@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import NavLink from "../components/NavLink";
+import { HiMiniBars3 } from "react-icons/hi2";
 import Dropdown from "./Dropdown";
+import { useState } from "react";
 
 const navLinks = [
   {
@@ -336,38 +338,58 @@ const dropdownLists = [
 ];
 
 const Navbar = () => {
+  const [showMobileDropdown, setShowMobileDropdown] = useState(false);
   return (
-    <nav className="border-b-2 border-b-primaryColor">
-      <div className="lg:px-[5%] xl:px-[10%] mx-auto px-4 flex justify-between items-center gap-10 pb-4">
-        <Link to="/">
-          <div className="gap-2 flex items-center">
-            <img
-              src="https://res.cloudinary.com/dv0oedkxm/image/upload/v1714631670/esrConsultancy_gwk7f0.png"
-              className="w-[40px] lg:w-[60px]"
-            />
-            <h2 className="text-lg text-[#5e2119] lg:text-2xl font-bold py-5 mt-4">
-              ESR Corpotate Consultants LLP
-            </h2>
+    <>
+      <nav className="border-b-2 border-b-primaryColor">
+        <div className="lg:px-[5%] xl:px-[10%] mx-auto px-4 flex justify-between items-center gap-10 pb-4">
+          <Link to="/">
+            <div className="gap-2 flex items-center">
+              <img
+                src="https://res.cloudinary.com/dv0oedkxm/image/upload/v1714631670/esrConsultancy_gwk7f0.png"
+                className="w-[40px] lg:w-[60px]"
+              />
+              <h2 className="text-lg text-[#5e2119] lg:text-2xl font-bold py-5 mt-4">
+                ESR Corpotate Consultants LLP
+              </h2>
+            </div>
+          </Link>
+          <ul className="hidden lg:flex justify-between items-center flex-1 mt-4 lg:max-w-[50%] min-[1440px]:max-w-[40%]">
+            {navLinks.map((link) => (
+              <NavLink linkDetails={link} key={link.name} />
+            ))}
+          </ul>
+          <div
+            className="btn lg:hidden bg-transparent mt-4"
+            onClick={() => {
+              setShowMobileDropdown(!showMobileDropdown);
+            }}
+          >
+            <HiMiniBars3 />
           </div>
-        </Link>
-        <ul className="hidden lg:flex justify-between items-center flex-1 mt-4 lg:max-w-[50%] min-[1440px]:max-w-[40%]">
-          {navLinks.map((link) => (
-            <NavLink linkDetails={link} key={link.name} />
-          ))}
-        </ul>
-      </div>
+        </div>
 
-      <div className="hidden lg:block px-[5%] xl:px-[10%] mx-auto py-3 bg-primaryColor">
-        <ul className="text-white flex w-[80%] justify-between xl:w-[70%] min-[1440px]:w-[60%]">
-          {dropdownLists.map((dropdownList) => (
-            <Dropdown
-              dropdownList={dropdownList}
-              key={dropdownList.mainTitle}
-            />
-          ))}
-        </ul>
-      </div>
-    </nav>
+        <div className="hidden lg:block px-[5%] xl:px-[10%] mx-auto py-3 bg-primaryColor">
+          <ul className="text-white flex w-[80%] justify-between xl:w-[70%] min-[1440px]:w-[60%]">
+            {dropdownLists.map((dropdownList) => (
+              <Dropdown
+                dropdownList={dropdownList}
+                key={dropdownList.mainTitle}
+              />
+            ))}
+          </ul>
+        </div>
+      </nav>
+      {showMobileDropdown && (
+        <div className="lg:hidden">
+          <ul className="flex flex-col m-2 gap-y-2">
+            {navLinks.map((link) => (
+              <NavLink linkDetails={link} key={link.name} />
+            ))}
+          </ul>
+        </div>
+      )}
+    </>
   );
 };
 
