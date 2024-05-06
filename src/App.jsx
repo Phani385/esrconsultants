@@ -8,7 +8,7 @@ import OurTeam from "./pages/TeamPage";
 const App = () => {
   return (
     <Routes>
-      <Route exact path="/ESR-consultants" element={<Home />} />
+      <Route exact path="/" element={<Home />} />
       <Route exact path="/services" element={<ServicesPage />} />
       <Route exact path="/contact" element={<ContactUsPage />} />
       <Route exact path="/proprietorship" element={<Proprietorship />} />
