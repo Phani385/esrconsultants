@@ -298,10 +298,6 @@ const dropdownLists = [
           title: "DIR-3 KYC",
           path: "/dir-3-kyc",
         },
-        {
-          title: "OPL",
-          path: "/opl",
-        },
       ],
       [
         {
@@ -324,11 +320,45 @@ const dropdownLists = [
           title: "Winding Up of Company",
           path: "/winding-up-of-company",
         },
-        {
-          title: "Business Loans",
-          path: "/business-loans",
-        },
       ],
+    ],
+  },
+  {
+    mainTitle: "Loans",
+    items: [
+      [
+      {
+        title: "Personal Loans",
+        path: "/personal-loans",
+      },
+      {
+        title: "Business Loans",
+        path: "/business-loans",
+      },
+      {
+        title: "OPL",
+        path: "/opl",
+      },
+    ]
+    ],
+  },
+  {
+    mainTitle: "Insurance",
+    items: [
+      [
+      {
+        title: "Health Insurance",
+        path: "/health-insurance",
+      },
+      {
+        title: "Life Insurance",
+        path: "/motor-insurance",
+      },
+      {
+        title: "Motor Insurance",
+        path: "/motor-insurance",
+      },
+    ]
     ],
   },
 ];
