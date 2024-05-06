@@ -60,7 +60,7 @@ const ContactForm = () => {
           </p>
           <button
             type="submit"
-            className=" btn bg-[#1d4ed8] px-8 my-3 text-white"
+            className=" btn bg-secondaryColor-500 hover:bg-secondaryColor-600 px-8 my-3 text-white"
           >
             Submit
           </button>
