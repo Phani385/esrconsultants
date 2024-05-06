@@ -350,7 +350,7 @@ const Navbar = () => {
               </h2>
             </div>
           </Link>
-          <ul className="hidden lg:flex justify-between items-center flex-1 mt-4 lg:max-w-[30%] min-[1440px]:max-w-[40%]">
+          <ul className="hidden lg:flex justify-between items-center flex-1 mt-4 lg:max-w-[40%] min-[1440px]:max-w-[35%]">
             {navLinks.map((link) => (
               <NavLink linkDetails={link} key={link.name} />
             ))}
