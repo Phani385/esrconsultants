@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import ServiceCard from "../../components/ServiceCard";
@@ -124,6 +125,10 @@ const serviceCardValues = [
 ];
 
 const ServicesPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />

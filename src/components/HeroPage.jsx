@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 const HeroPage = ({ imageUrl }) => {
+  const navigate = useNavigate();
   return (
     <div
       className="hero h-full"
@@ -25,10 +28,20 @@ const HeroPage = ({ imageUrl }) => {
           optimize the benefits accruing to clients.
         </p>
         <div className="flex flex-col gap-4 lg:flex-row justify-center">
-          <button className="btn border-none text-white bg-secondaryColor-500 hover:bg-secondaryColor-600 mx-auto w-full md:w-[60%] lg:w-fit lg:mx-0">
+          <button
+            className="btn border-none text-white bg-secondaryColor-500 hover:bg-secondaryColor-600 mx-auto w-full md:w-[60%] lg:w-fit lg:mx-0"
+            onClick={() => {
+              navigate("/contact");
+            }}
+          >
             Contact Us
           </button>
-          <button className="btn border-none text-white   bg-secondaryColor-500 hover:bg-secondaryColor-600 mx-auto w-full md:w-[60%] lg:w-fit lg:mx-0">
+          <button
+            className="btn border-none text-white   bg-secondaryColor-500 hover:bg-secondaryColor-600 mx-auto w-full md:w-[60%] lg:w-fit lg:mx-0"
+            onClick={() => {
+              navigate("/services");
+            }}
+          >
             Our Services
           </button>
         </div>

@@ -1,5 +1,8 @@
 /* eslint-disable react/prop-types */
 
+import { Link } from "react-router-dom";
+import { LuExternalLink } from "react-icons/lu";
+
 export const MainHeading = ({ content }) => (
   <h1 className="text-2xl lg:text-3xl text-center font-semibold mb-3">
     {content}
@@ -14,7 +17,6 @@ export const SubHeading = ({ content }) => (
   <h2 className="text-xl lg:text-2xl font-semibold mb-2">{content}</h2>
 );
 
-
 export const ListPoint = ({ heading, description }) => {
   return (
     <li className="list-none mb-2 text-gray-500">
@@ -22,7 +24,6 @@ export const ListPoint = ({ heading, description }) => {
     </li>
   );
 };
-
 
 export const CheckItem = ({ point }) => {
   return (
@@ -38,4 +39,11 @@ export const CheckItem = ({ point }) => {
   );
 };
 
-
+export const FooterTopLink = ({ title, url }) => (
+  <li>
+    <Link to={url} className="text-secondaryColor-500 flex gap-2 items-center">
+      <LuExternalLink />
+      {title}
+    </Link>
+  </li>
+);

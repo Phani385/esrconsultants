@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link, redirect, useNavigate } from "react-router-dom";
 import Footer from "../../components/Footer";
 import HomeHeroSection from "../../components/HomeHeroSection";
 import Navbar from "../../components/Navbar";
@@ -54,7 +54,7 @@ const Home = () => {
             Chartered Accountants, Company Secretaries, Cost Accountants and
             Lawyers.
           </p>
-          <ul className="flex gap-10 w-[60%] mx-auto my-3">
+          <ul className="flex flex-col lg:flex-row gap-10 lg:w-[60%] mx-auto my-3">
             <HomeTeamCard
               imageUrl="https://res.cloudinary.com/dv0oedkxm/image/upload/v1690629203/profilePic_zktmsn.jpg"
               name="CA Gaurav Jain"
@@ -75,7 +75,7 @@ const Home = () => {
             <button
               className="btn border-none text-white   bg-secondaryColor-500 hover:bg-secondaryColor-600 mx-auto w-full md:w-[60%]  lg:w-fit lg:mx-0"
               onClick={() => {
-                navigate("/team");
+                 navigate("/team");
               }}
             >
               View Team

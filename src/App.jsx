@@ -13,7 +13,6 @@ const App = () => {
       <Route exact path="/contact" element={<ContactUsPage />} />
       <Route exact path="/proprietorship" element={<Proprietorship />} />
       <Route exact path="/team" element={<OurTeam />} />
-
     </Routes>
   );
 };

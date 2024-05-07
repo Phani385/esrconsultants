@@ -7,7 +7,7 @@ const ServiceCard = ({ title, description, iconUrl, subItems }) => {
       <div className="flex-1 text-left">
         <h4 className="text-xl font-semibold text-black">{title}</h4>
         <p className="text-gray-500 mb-3">{description}</p>
-        <ul className="pl-6 text-gray-500 max-h-[300px] flex flex-col flex-wrap gap-x-10">
+        <ul className="pl-6 text-gray-500 lg:max-h-[300px] flex flex-col flex-wrap gap-x-10">
           {subItems.map((item) => (
             <li className="list-disc" key={item}>
               {item}
