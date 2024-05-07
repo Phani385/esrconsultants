@@ -375,12 +375,12 @@ const Navbar = () => {
                 src="https://res.cloudinary.com/dv0oedkxm/image/upload/v1714631670/esrConsultancy_gwk7f0.png"
                 className="w-[40px] lg:w-[60px]"
               />
-              <h2 className="text-lg text-[#5e2119] lg:text-2xl font-bold py-5 mt-4">
+              <h2 className="text-sm text-[#5e2119] lg:text-2xl font-bold py-5 mt-4">
                 ESR Corpotate Consultants LLP
               </h2>
             </div>
           </Link>
-          <ul className="hidden lg:flex justify-between items-center flex-1 mt-4 lg:max-w-[40%] min-[1440px]:max-w-[35%]">
+          <ul className="hidden lg:flex justify-between items-center flex-1 mt-4 lg:max-w-[50%] min-[1440px]:max-w-[30%]">
             {navLinks.map((link) => (
               <NavLink linkDetails={link} key={link.name} />
             ))}
@@ -396,7 +396,7 @@ const Navbar = () => {
         </div>
 
         <div className="hidden lg:block px-[5%] xl:px-[10%] mx-auto py-3 bg-primaryColor">
-          <ul className="text-white flex w-[80%] justify-between xl:w-[70%] min-[1440px]:w-[60%]">
+          <ul className="text-white flex w-[90%] justify-between xl:w-[90%] min-[1440px]:w-[80%]">
             {dropdownLists.map((dropdownList) => (
               <Dropdown
                 dropdownList={dropdownList}
