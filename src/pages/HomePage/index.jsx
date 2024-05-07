@@ -14,7 +14,7 @@ const Home = () => {
         <Navbar />
         <HomeHeroSection />
       </div>
-      <section className="w-[80%] mx-auto">
+      <section className="w-[80%] mx-auto flex flex-col gap-20">
         <ServicesSection />
         <section className="mb-12 flex flex-col justify-center items-center lg:flex-row gap-6 mx-auto">
           <div className="w-[80%] rounded-lg flex-1">
@@ -44,11 +44,23 @@ const Home = () => {
             </p>
           </div>
         </section>
+       
+
+
+        <div className="relative">
+          <Link to="/contact">
+            <img
+              src="https://res.cloudinary.com/dv0oedkxm/image/upload/v1714980076/CTA_f9nb30.png"
+              className="mb-20 mx-auto"
+            />
+          </Link>
+        </div>
+
         <section className="mb-12">
           <h2 className="text-2xl lg:text-3xl font-bold text-center text-secondaryColor-500">
             Our Team
           </h2>
-          <p className="text-center text-lg text-gray-500 w-[80%] my-2 mx-auto">
+          <p className="text-center text-lg text-gray-500 lg:w-[80%] my-2 mx-auto">
             Our team has extensive experience in multiple domains across diverse
             industries. The organization is backed by several qualified
             Chartered Accountants, Company Secretaries, Cost Accountants and
@@ -82,16 +94,6 @@ const Home = () => {
             </button>
           </div>
         </section>
-
-
-        <div className="relative">
-          <Link to="/contact">
-            <img
-              src="https://res.cloudinary.com/dv0oedkxm/image/upload/v1714980076/CTA_f9nb30.png"
-              className="mb-20 mx-auto"
-            />
-          </Link>
-        </div>
       </section>
       <Footer />
     </div>
