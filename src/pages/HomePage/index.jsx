@@ -17,7 +17,7 @@ const Home = () => {
       <section className="w-[80%] mx-auto flex flex-col gap-20">
         <ServicesSection />
         <section className="mb-12 flex flex-col justify-center items-center lg:flex-row gap-6 mx-auto">
-          <div className="w-[80%] rounded-lg flex-1">
+          <div className="lg:w-[80%] rounded-lg flex-1">
             <div className="h-full rounded-lg bg-black">
               <video
                 controls
@@ -33,19 +33,16 @@ const Home = () => {
           <div className="w-[100%] xl:w-[50%]">
             <h3 className="text-xl lg:text-2xl font-semibold">Our Story</h3>
             <p className="text-gray-500  lg:text-lg lg:w-[500px] xl:w-[700px] text-justify">
-              We are on a mission to make Entrepreneurship easier and affordable
-              to millions. ESR Corpotate Consultants provides a simple and
-              intuitive platform for setting up a business and managing
-              compliance.
-              <br /> We started our journey in 2014 and bootstrapped the
-              business till 2022, serving over 1 lakh businesses. In 2022, we
-              raised funding from institutional investors to further our
-              mission.
+              ESR has always tried to add value to your businesses. Our team of
+              professionals are here to handle all your business needs. From
+              simple bookkeeping to complex investigation engagements, <br />
+              ESR
+              Consultants can provide complete “end-to-end” services and
+              solutions for your business. We are committed to providing
+              superior technical, quality and satisfactory work
             </p>
           </div>
         </section>
-       
-
 
         <div className="relative">
           <Link to="/contact">
@@ -87,7 +84,7 @@ const Home = () => {
             <button
               className="btn border-none text-white   bg-secondaryColor-500 hover:bg-secondaryColor-600 mx-auto w-full md:w-[60%]  lg:w-fit lg:mx-0"
               onClick={() => {
-                 navigate("/team");
+                navigate("/team");
               }}
             >
               View Team
