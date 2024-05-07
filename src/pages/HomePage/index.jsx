@@ -17,14 +17,14 @@ const Home = () => {
         <section className="mb-12 flex flex-col justify-center items-center lg:flex-row gap-6 mx-auto">
           <div className="w-[80%] rounded-lg flex-1">
             <div className="h-full rounded-lg bg-black">
-              <video controls loop autoPlay muted className="w-[100%] h-[100%]">
+              <video controls loop autoPlay muted className="w-[100%] h-[100%] rounded-lg">
                 <source src="/ourstory.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
           <div className="w-[100%] xl:w-[50%]">
             <h3 className="text-xl lg:text-2xl font-semibold">Our Story</h3>
-            <p className="text-gray-500  lg:text-lg lg:w-[500px] text-justify">
+            <p className="text-gray-500  lg:text-lg lg:w-[500px] xl:w-[700px] text-justify">
               We are on a mission to make Entrepreneurship easier and affordable
               to millions. IndiaFilings provides a simple and intuitive platform
               for setting up a business and managing compliance.
