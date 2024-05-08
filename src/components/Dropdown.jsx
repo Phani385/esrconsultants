@@ -14,14 +14,13 @@ const Dropdown = ({ dropdownList }) => {
       </div>
       <ul
         tabIndex={0}
-        className="dropdown-content z-[1] menu p-2 shadow bg-base-100 text-black rounded-box flex flex-row flex-nowrap"
+        className="dropdown-content z-[10] menu p-2 shadow bg-base-100 text-black rounded-box flex flex-row flex-nowrap"
       >
         {dropdownList.items.map((list) => {
-          console.log(list);
           return (
             <ul className="flex flex-col flex-wrap" key={list}>
               {list.map((item) => (
-                <li key={item.path}>
+                <li key={item.title}>
                   <Link to={item.path} style={{ whiteSpace: "nowrap" }}>
                     {item.title}
                   </Link>

@@ -46,21 +46,21 @@ const dropdownLists = [
         },
         {
           title: "Check Company or LLP Name Avalibility",
-          path: "check-company-or-llp-name-avalibility",
+          path: "",
         },
       ],
       [
         {
           title: "Section 8 company",
-          path: "/section-8-company",
+          path: "",
         },
         {
           title: "Nidhi Company",
-          path: "/nidhi-company",
+          path: "",
         },
         {
           title: "Indian Subsidary",
-          path: "/indian-subsidary",
+          path: "",
         },
       ],
     ],
@@ -71,37 +71,37 @@ const dropdownLists = [
       [
         {
           title: "Digital Signature",
-          path: "/digital-signature",
+          path: "",
         },
         {
           title: "Udyam Registration",
-          path: "/udyam-registration",
+          path: "",
         },
         {
           title: "Startup India Registration",
-          path: "/startup-india-registration",
+          path: "",
         },
         {
           title: "FSSAI Registration",
-          path: "/fssai-registration",
+          path: "",
         },
         {
           title: "Professional Tax",
-          path: "/professional-tax",
+          path: "",
         },
       ],
       [
         {
           title: "Barcode Registration",
-          path: "/barcode-registration",
+          path: "",
         },
         {
           title: "RCMC Registration",
-          path: "/rcmc-registration",
+          path: "",
         },
         {
           title: "Import Certificate",
-          path: "/import-certificate",
+          path: "",
         },
       ],
     ],
@@ -112,37 +112,37 @@ const dropdownLists = [
       [
         {
           title: "Trademark Registration",
-          path: "/trademark-registration",
+          path: "",
         },
         {
           title: "Trademark Objection",
-          path: "/trademark-objection",
+          path: "",
         },
         {
           title: "Trademark Opposition",
-          path: "/trademark-opposition",
+          path: "",
         },
         {
           title: "Find Trademark for Over 8000 goods and services",
-          path: "/find-trademark-for-over-8000-goods-and-services",
+          path: "",
         },
       ],
       [
         {
           title: "Trademark Renewal",
-          path: "/trademark-renewal",
+          path: "",
         },
         {
           title: "Copyright Registration",
-          path: "/copyright-registration",
+          path: "",
         },
         {
           title: "Design Registration",
-          path: "/design-registration",
+          path: "",
         },
         {
           title: "Patent Registration",
-          path: "/patent-registration",
+          path: "",
         },
       ],
     ],
@@ -153,41 +153,41 @@ const dropdownLists = [
       [
         {
           title: "GST Registration",
-          path: "/gst-registration",
+          path: "",
         },
         {
           title: "GST Return Filing",
-          path: "/gst-return-filing",
+          path: "",
         },
         {
           title: "GST LUT Filing",
-          path: "/gst-lut-filing",
+          path: "",
         },
         {
           title: "GST Registration Cancellation",
-          path: "/gst-registration-cancellation",
+          path: "",
         },
         {
           title: "GST Annual Return",
-          path: "/gst-annual-return",
+          path: "",
         },
       ],
       [
         {
           title: "GST Invoicing",
-          path: "/gst-invoicing",
+          path: "",
         },
         {
           title: "GST eInvoicing",
-          path: "/gst-einvoicing",
+          path: "",
         },
         {
           title: "Input Tax Credit",
-          path: "/input-tax-credit",
+          path: "",
         },
         {
           title: "GST Software for Accountants",
-          path: "/gst-software-for-accountants",
+          path: "",
         },
       ],
     ],
@@ -198,55 +198,55 @@ const dropdownLists = [
       [
         {
           title: "Personal Tax Filing",
-          path: "/personal-tax-filing",
+          path: "",
         },
         {
           title: "Business Tax Filing",
-          path: "/business-tax-filing",
+          path: "",
         },
         {
           title: "Tax Notice",
-          path: "/tax-notice",
+          path: "",
         },
         {
           title: "TDS Filing",
-          path: "/tds-filing",
+          path: "",
         },
       ],
       [
         {
           title: "ITR-1 Return",
-          path: "/itr-1-return",
+          path: "",
         },
         {
           title: "ITR-2 Return",
-          path: "/itr-2-return",
+          path: "",
         },
         {
           title: "ITR-3 Return",
-          path: "/itr-3-return",
+          path: "",
         },
         {
           title: "ITR-4 Return",
-          path: "/itr-4-return",
+          path: "",
         },
       ],
       [
         {
           title: "ITR 5 Return",
-          path: "/itr-5-return",
+          path: "",
         },
         {
           title: "ITR 6 Return",
-          path: "/itr-6-return",
+          path: "",
         },
         {
           title: "ITR 7 Return",
-          path: "/itr-7-return",
+          path: "",
         },
         {
           title: "Form 16",
-          path: "/form-16",
+          path: "",
         },
       ],
     ],
@@ -266,59 +266,59 @@ const dropdownLists = [
         },
         {
           title: "Company",
-          path: "/company",
+          path: "",
         },
         {
           title: "LLP Compliance",
-          path: "/llp-compliance",
+          path: "",
         },
         {
           title: "Payroll",
-          path: "/payroll",
+          path: "",
         },
       ],
       [
         {
           title: "PF Registration",
-          path: "/pf-registration",
+          path: "",
         },
         {
           title: "PF Return Filing",
-          path: "/pf-return-filing",
+          path: "",
         },
         {
           title: "ESI Registration",
-          path: "/esi-registration",
+          path: "",
         },
         {
           title: "Share Transfer",
-          path: "/share-transfer",
+          path: "",
         },
         {
           title: "DIR-3 KYC",
-          path: "/dir-3-kyc",
+          path: "",
         },
       ],
       [
         {
           title: "Add Directors",
-          path: "/add-directors",
+          path: "",
         },
         {
           title: "Remove Directors",
-          path: "/remove-directors",
+          path: "",
         },
         {
           title: "Registered Office Change",
-          path: "/registered-office-change",
+          path: "",
         },
         {
           title: "Increase Authorized Capital",
-          path: "/increase-authorized-capital",
+          path: "",
         },
         {
           title: "Winding Up of Company",
-          path: "/winding-up-of-company",
+          path: "",
         },
       ],
     ],
@@ -329,15 +329,15 @@ const dropdownLists = [
       [
       {
         title: "Personal Loans",
-        path: "/personal-loans",
+        path: "",
       },
       {
         title: "Business Loans",
-        path: "/business-loans",
+        path: "",
       },
       {
         title: "OPL",
-        path: "/opl",
+        path: "",
       },
     ]
     ],
@@ -348,15 +348,15 @@ const dropdownLists = [
       [
       {
         title: "Health Insurance",
-        path: "/health-insurance",
+        path: "",
       },
       {
         title: "Life Insurance",
-        path: "/motor-insurance",
+        path: "",
       },
       {
         title: "Motor Insurance",
-        path: "/motor-insurance",
+        path: "",
       },
     ]
     ],

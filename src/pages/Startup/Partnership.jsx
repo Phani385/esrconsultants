@@ -2,6 +2,7 @@ import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import {
   CheckItem,
+  FooterTopLink,
   ListPoint,
   MainHeading,
   Paragraph,
@@ -261,6 +262,25 @@ const Partnership = () => {
           </div>
           <div className="hidden lg:block">
             <h3>Related Guides</h3>
+            <ul className="my-3 flex flex-col gap-4">
+              <FooterTopLink
+                title="Official site of Income tax"
+                url="https://incometaxindia.gov.in/Pages/default.aspx"
+              />
+              <FooterTopLink
+                title="Official site of Income tax"
+                url="https://incometaxindia.gov.in/Pages/default.aspx"
+              />
+
+              <FooterTopLink
+                title="Official site of Income tax"
+                url="https://incometaxindia.gov.in/Pages/default.aspx"
+              />
+              <FooterTopLink
+                title="Official site of Income tax"
+                url="https://incometaxindia.gov.in/Pages/default.aspx"
+              />
+            </ul>
           </div>
         </div>
       </div>

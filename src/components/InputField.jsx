@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import "../pages/ContactUsPage/index.css";
 
 const InputField = ({ label, id, name }) => {
@@ -11,10 +12,5 @@ const InputField = ({ label, id, name }) => {
   );
 };
 
-InputField.propTypes = {
-  label: String,
-  id: String,
-  name: String,
-};
 
 export default InputField;
