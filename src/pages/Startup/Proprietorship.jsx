@@ -82,7 +82,7 @@ const registrationSteps = [
   {
     heading: "Step 4",
     description:
-      "An IndiaFilings Registration Expert will file the registration application with GST Department, MSME Department and Bank for Current Account.",
+      "An ESR Consultants Registration Expert will file the registration application with GST Department, MSME Department and Bank for Current Account.",
   },
   {
     heading: "Step 5",
@@ -141,7 +141,7 @@ const Proprietorship = () => {
               />
 
               <Paragraph
-                content="IndiaFilings can assist you in registering a Sole Proprietorship,
+                content="ESR Consultants can assist you in registering a Sole Proprietorship,
               a simple and efficient business structure that is ideal for solo
               entrepreneurs. With our expert guidance and streamlined process,
               you can start your proprietorship quickly and hassle-free. Start
@@ -174,7 +174,7 @@ const Proprietorship = () => {
                 </li>
                 <li className="list-disc">
                   Register under{" "}
-                  <a href="https://www.indiafilings.com/udyam-registration">
+                  <a href="https://www.ESR Consultants.com/udyam-registration">
                     UDYAM
                   </a>
                   , which recognizes your business as a Micro, Small, or Medium
@@ -183,14 +183,14 @@ const Proprietorship = () => {
                 <li className="list-disc">
                   If your business exceeds specific thresholds, you must
                   register for{" "}
-                  <a href="https://www.indiafilings.com/gst-registration">
+                  <a href="https://www.ESR Consultants.com/gst-registration">
                     Goods and Services Tax (GST)
                   </a>{" "}
                   to collect and pay GST.
                 </li>
                 <li>
                   Open a separate{" "}
-                  <a href="https://www.indiafilings.com/banking">
+                  <a href="https://www.ESR Consultants.com/banking">
                     bank account
                   </a>{" "}
                   for your business to manage finances smoothly.
@@ -228,11 +228,11 @@ const Proprietorship = () => {
               </ul>
             </section>
             <section>
-              <SubHeading content="Registering a Proprietorship Online through IndiaFilings" />
+              <SubHeading content="Registering a Proprietorship Online through ESR Consultants" />
 
               <Paragraph
                 content="You can easily register a proprietorship online through
-              IndiaFilings. To register a proprietorship, only the PAN & Aadhaar
+              ESR Consultants. To register a proprietorship, only the PAN & Aadhaar
               card of the business owner is required. We can help you obtain the
               following registrations in less than 15 days:"
               />
@@ -241,7 +241,7 @@ const Proprietorship = () => {
                 <CheckItem point="UDYAM Registration" />
                 <CheckItem point="Zero-Balance Business Current Account with LEDGERS Accounting Software" />
               </ul>
-              <Paragraph content="Once, you have registered for the proprietorship registration on IndiaFilings, please follow the steps below and upload the following documents by logging into LEDGERS." />
+              <Paragraph content="Once, you have registered for the proprietorship registration on ESR Consultants, please follow the steps below and upload the following documents by logging into LEDGERS." />
               {registrationSteps.map((step) => (
                 <ListPoint
                   heading={step.heading}
@@ -262,7 +262,7 @@ const Proprietorship = () => {
               <SubHeading content="Obtaining GST Registration for Proprietorship" />
               <Paragraph
                 content="GST registration for a proprietorship will be obtained by
-              IndiaFilings as a part of the service. The following documents are
+              ESR Consultants as a part of the service. The following documents are
               required for GST registration:"
               />
 
@@ -285,7 +285,7 @@ const Proprietorship = () => {
               <Paragraph
                 content="Udyam Registration can be obtained online to avail various
               benefits available for small and medium sized businesses. Once the
-              GST registration is obtained, the IndiaFilings team would help
+              GST registration is obtained, the ESR Consultants team would help
               obtain UDYAM registration by submitting Aadhaar card, PAN card and
               GST certificate to Government."
               />

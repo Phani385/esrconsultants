@@ -257,7 +257,7 @@ const Partnership = () => {
             <section>
               <SubHeading content="How can ESR Consultants help in Partnership Firm Registration?" />
               <Paragraph content="We offer comprehensive assistance in Partnership Firm Registration, simplifying the complex process for you. Our experienced team provides expert guidance, aids in document preparation, assists with name selection, and ensures full legal compliance. We take care of submitting your application to the relevant authorities and keep you informed with timely updates. Whether initiating a new partnership or formalizing an existing one, our services are tailored to your unique needs. We don't stop at registration; our support continues post-registration, helping you understand the ongoing responsibilities of operating a registered partnership firm." />
-              <Paragraph content="With IndiaFilings, you can confidently navigate the registration process, knowing that your partnership is established efficiently, allowing you to concentrate on your business's growth. Our cost-effective solutions make the entire process hassle-free and affordable. Contact us today to take the first step towards a successful partnership." />
+              <Paragraph content="With ESR Consultants, you can confidently navigate the registration process, knowing that your partnership is established efficiently, allowing you to concentrate on your business's growth. Our cost-effective solutions make the entire process hassle-free and affordable. Contact us today to take the first step towards a successful partnership." />
             </section>
           </div>
           <div className="hidden lg:block">

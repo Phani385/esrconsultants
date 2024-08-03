@@ -46,21 +46,21 @@ const dropdownLists = [
         },
         {
           title: "Check Company or LLP Name Avalibility",
-          path: "",
+          path: "/check-company-or-llp-name-avalibility",
         },
       ],
       [
         {
           title: "Section 8 company",
-          path: "",
+          path: "/section-8-company",
         },
         {
           title: "Nidhi Company",
-          path: "",
+          path: "/nidhi-company",
         },
         {
           title: "Indian Subsidary",
-          path: "",
+          path: "/indian-subsidary",
         },
       ],
     ],
@@ -327,38 +327,38 @@ const dropdownLists = [
     mainTitle: "Loans",
     items: [
       [
-      {
-        title: "Personal Loans",
-        path: "",
-      },
-      {
-        title: "Business Loans",
-        path: "",
-      },
-      {
-        title: "OPL",
-        path: "",
-      },
-    ]
+        {
+          title: "Personal Loans",
+          path: "",
+        },
+        {
+          title: "Business Loans",
+          path: "",
+        },
+        {
+          title: "OPL",
+          path: "",
+        },
+      ],
     ],
   },
   {
     mainTitle: "Insurance",
     items: [
       [
-      {
-        title: "Health Insurance",
-        path: "",
-      },
-      {
-        title: "Life Insurance",
-        path: "",
-      },
-      {
-        title: "Motor Insurance",
-        path: "",
-      },
-    ]
+        {
+          title: "Health Insurance",
+          path: "",
+        },
+        {
+          title: "Life Insurance",
+          path: "",
+        },
+        {
+          title: "Motor Insurance",
+          path: "",
+        },
+      ],
     ],
   },
 ];
