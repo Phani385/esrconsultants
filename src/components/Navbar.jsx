@@ -71,37 +71,37 @@ const dropdownLists = [
       [
         {
           title: "Digital Signature",
-          path: "",
+          path: "/digital-signature",
         },
         {
           title: "Udyam Registration",
-          path: "",
+          path: "/udyam-registration",
         },
         {
           title: "Startup India Registration",
-          path: "",
+          path: "/startup-india-registration",
         },
         {
           title: "FSSAI Registration",
-          path: "",
+          path: "/fssai-registration",
         },
         {
           title: "Professional Tax",
-          path: "",
+          path: "/professional-tax",
         },
       ],
       [
         {
           title: "Barcode Registration",
-          path: "",
+          path: "/barcode-registration",
         },
         {
           title: "RCMC Registration",
-          path: "",
+          path: "/rcmc-registration",
         },
         {
           title: "Import Certificate",
-          path: "",
+          path: "/import-certificate",
         },
       ],
     ],
@@ -112,37 +112,37 @@ const dropdownLists = [
       [
         {
           title: "Trademark Registration",
-          path: "",
+          path: "/",
         },
         {
           title: "Trademark Objection",
-          path: "",
+          path: "/trademark-objection",
         },
         {
           title: "Trademark Opposition",
-          path: "",
+          path: "/trademark-opposition",
         },
         {
           title: "Find Trademark for Over 8000 goods and services",
-          path: "",
+          path: "/find-trademark",
         },
       ],
       [
         {
           title: "Trademark Renewal",
-          path: "",
+          path: "/trademark-renwal",
         },
         {
           title: "Copyright Registration",
-          path: "",
+          path: "/copyright-registration",
         },
         {
           title: "Design Registration",
-          path: "",
+          path: "/design-registration",
         },
         {
           title: "Patent Registration",
-          path: "",
+          path: "/patent-registration",
         },
       ],
     ],
@@ -153,41 +153,41 @@ const dropdownLists = [
       [
         {
           title: "GST Registration",
-          path: "",
+          path: "/gst-registration",
         },
         {
           title: "GST Return Filing",
-          path: "",
+          path: "/gst-return-filing",
         },
         {
           title: "GST LUT Filing",
-          path: "",
+          path: "/gst-lut-filing",
         },
         {
           title: "GST Registration Cancellation",
-          path: "",
+          path: "/gst-registration-cancellation",
         },
         {
           title: "GST Annual Return",
-          path: "",
+          path: "/gst-annual-return",
         },
       ],
       [
         {
           title: "GST Invoicing",
-          path: "",
+          path: "/gst-invoicing",
         },
         {
           title: "GST eInvoicing",
-          path: "",
+          path: "/gst-einvoicing",
         },
         {
           title: "Input Tax Credit",
-          path: "",
+          path: "/input-tax-credit",
         },
         {
           title: "GST Software for Accountants",
-          path: "",
+          path: "/",
         },
       ],
     ],
