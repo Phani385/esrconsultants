@@ -44,10 +44,6 @@ const dropdownLists = [
           title: "Limited Liability Company",
           path: "/limited-liability-company",
         },
-        {
-          title: "Check Company or LLP Name Avalibility",
-          path: "/check-company-or-llp-name-avalibility",
-        },
       ],
       [
         {
@@ -110,10 +106,6 @@ const dropdownLists = [
     mainTitle: "Trademark",
     items: [
       [
-        {
-          title: "Trademark Registration",
-          path: "/",
-        },
         {
           title: "Trademark Objection",
           path: "/trademark-objection",
@@ -185,10 +177,6 @@ const dropdownLists = [
           title: "Input Tax Credit",
           path: "/input-tax-credit",
         },
-        {
-          title: "GST Software for Accountants",
-          path: "/",
-        },
       ],
     ],
   },
@@ -198,7 +186,7 @@ const dropdownLists = [
       [
         {
           title: "Personal Tax Filing",
-          path: "",
+          path: "/personal-tax-filing",
         },
         {
           title: "Business Tax Filing",
@@ -314,7 +302,7 @@ const dropdownLists = [
         },
         {
           title: "Increase Authorized Capital",
-          path: "/increased-authorized-capital",
+          path: "/increase-authorized-capital",
         },
         {
           title: "Winding Up of Company",

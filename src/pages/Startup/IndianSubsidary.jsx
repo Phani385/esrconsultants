@@ -34,23 +34,13 @@ const IndianSubsidary = () => {
           <div className="hidden lg:block">
             <h3>Related Guides</h3>
             <ul className="my-3 flex flex-col gap-4">
-              <FooterTopLink
-                title="Official site of Income tax"
-                url="https://incometaxindia.gov.in/Pages/default.aspx"
-              />
-              <FooterTopLink
-                title="Official site of Income tax"
-                url="https://incometaxindia.gov.in/Pages/default.aspx"
-              />
-
-              <FooterTopLink
-                title="Official site of Income tax"
-                url="https://incometaxindia.gov.in/Pages/default.aspx"
-              />
-              <FooterTopLink
-                title="Official site of Income tax"
-                url="https://incometaxindia.gov.in/Pages/default.aspx"
-              />
+              {sideLinks.map((sideLink, index) => (
+                <FooterTopLink
+                  key={index}
+                  title={sideLink.title}
+                  url={sideLink.url}
+                />
+              ))}
             </ul>
           </div>
         </div>

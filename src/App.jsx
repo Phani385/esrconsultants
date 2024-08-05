@@ -81,11 +81,6 @@ const App = () => {
         path="/limited-liability-company"
         element={<LLPRegistration />}
       />
-      <Route
-        exact
-        path="/check-company-or-llp-name-avalibility"
-        element={<CheckCompany />}
-      />
       <Route exact path="/section-8-company" element={<Section8 />} />
       <Route exact path="/nidhi-company" element={<NidhiCompany />} />
       <Route exact path="/indian-subsidary" element={<IndianSubsidary />} />

@@ -80,8 +80,9 @@ export const professionalTax = {
   ],
   finalHeading:
     "Seamless Professional Tax Registration Services with ESR Consultants",
-  finalParagraph:
+  finalParagraph: [
     "ESR Consultants can assist you in simplifying the process of obtaining a Professional Tax Registration Certificate in India. Here's how our services can benefit you in Application Submission, Timely Process, Customized Support. By choosing ESR Consultants to meet your Professional Tax obligations, you can confidently simplify the process and navigate the complexities of tax regulations.",
+  ],
 };
 
 export const barcodeRegistration = {
@@ -431,7 +432,8 @@ export const businessTaxFiling = {
     "A business tax return refers to an income tax return for businesses. A business income tax return is a comprehensive report that outlines a business's income, expenses, and pertinent tax details, all presented in a designated form. It entails the submission of income tax returns for businesses, with the added requirement of reporting Tax Deducted at Source (TDS). This process must be carried out annually.",
     "This return serves as a financial statement detailing earnings. It outlays and is a documentation of additional financial components like fixed assets, loans obtained, loans extended, debtors, and creditors within the business.",
   ],
-  finalHeading: "How ESR Consultants Can Assist with Business Tax Return Filings",
+  finalHeading:
+    "How ESR Consultants Can Assist with Business Tax Return Filings",
   finalParagraph: [
     "Navigating the intricate world of business tax filing is made effortless with ESR Consultants. Our dedicated services offer comprehensive support to ensure your tax obligations are met seamlessly. Our platform provides a user-friendly interface that guides you through the step-by-step filing process. Our experienced professionals are well-versed in the nuances of tax regulations, ensuring accurate and timely submissions. We're here to aid businesses of all types in effortlessly filing their tax returns.",
     "With our user-friendly platform and seasoned team, the process becomes less daunting, ensuring deadlines and rules are followed. We will keep you well-informed about crucial deadlines, assist in selecting the appropriate ITR form, and guide you through a meticulous, error-free filing process. With ESR Consultants, you can confidently handle your business tax filing, saving time and minimizing the complexities involved.",
@@ -446,8 +448,9 @@ export const incomeTaxNotice = {
     "ESR Consultants offers a comprehensive suite of services to help families and businesses maintain compliance. If an income tax notice is received, contact the Tax Expert at ESR Consultants to understand the income tax notice and determine a course of action.",
   ],
   subHeading1: "What is an Income tax Notice?",
-  subParas1:
+  subParas1: [
     "As mentioned above, An income tax department notice is a formal communication issued by the Income Tax Department to a taxpayer. It can relate to various aspects of income tax filing and compliance, such as requests for additional information, clarification of discrepancies in a tax return, audits, tax payment demands, or refund notifications. The income tax department notice specifies the details of what the department requires from the taxpayer, ranging from submitting specific documents to explaining income or deductions claimed.",
+  ],
   finalHeading: "How Can ESR Consultants Assist with Your Income Tax Notice?",
   finalParagraph: [
     "ESR Consultants can assist in responding to Income Tax notices through",
@@ -956,3 +959,31 @@ export const motorInsurance = {
     "Simplify your motor insurance application process with our expert assistance. We streamline the procedure, ensuring compliance and providing a hassle-free experience. Our dedicated team offers personalized support, guiding you through each step, from choosing the right policy to finalizing your plan. Start your motor insurance journey with us. Contact us today for expert guidance and a seamless experience.",
   ],
 };
+
+
+export const sideLinks = [
+  {
+    title: "Official site of Income tax",
+    url: "https://incometaxindia.gov.in/Pages/default.aspx",
+  },
+  {
+    title: "FEMA",
+    url: "https://www.rbi.org.in/scripts/Fema.aspx",
+  },
+  {
+    title: "ICAI Udin",
+    url: "https://udin.icai.org/",
+  },
+  {
+    title: "ICAI SSP Portal",
+    url: "https://cdn3.digialm.com/per/g21/pub/1666/SelfServices/templates/Login%20Folder21052019122446/Login%20Folder/ICAI%20Phase%20II%20Login%20Page521052019122546.html",
+  },
+  {
+    title: "National Security Depository Ltd.",
+    url: "https://nsdl.co.in/",
+  },
+  {
+    title: "Goods and Service Tax",
+    url: "https://www.gst.gov.in/",
+  },
+]
