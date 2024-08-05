@@ -202,51 +202,51 @@ const dropdownLists = [
         },
         {
           title: "Business Tax Filing",
-          path: "",
+          path: "/business-tax-filing",
         },
         {
           title: "Tax Notice",
-          path: "",
+          path: "/tax-notice",
         },
         {
           title: "TDS Filing",
-          path: "",
+          path: "/tds-filing",
         },
       ],
       [
         {
           title: "ITR-1 Return",
-          path: "",
+          path: "/itr-1-return",
         },
         {
           title: "ITR-2 Return",
-          path: "",
+          path: "/itr-2-return",
         },
         {
           title: "ITR-3 Return",
-          path: "",
+          path: "/itr-3-return",
         },
         {
           title: "ITR-4 Return",
-          path: "",
+          path: "/itr-4-return",
         },
       ],
       [
         {
           title: "ITR 5 Return",
-          path: "",
+          path: "/itr-5-return",
         },
         {
           title: "ITR 6 Return",
-          path: "",
+          path: "/itr-6-return",
         },
         {
           title: "ITR 7 Return",
-          path: "",
+          path: "/itr-7-return",
         },
         {
           title: "Form 16",
-          path: "",
+          path: "/form-16",
         },
       ],
     ],
@@ -266,59 +266,59 @@ const dropdownLists = [
         },
         {
           title: "Company",
-          path: "",
+          path: "/company-annual-filing",
         },
         {
           title: "LLP Compliance",
-          path: "",
+          path: "/llp-compliance",
         },
         {
           title: "Payroll",
-          path: "",
+          path: "/payroll",
         },
       ],
       [
         {
           title: "PF Registration",
-          path: "",
+          path: "/pf-registration",
         },
         {
           title: "PF Return Filing",
-          path: "",
+          path: "/pf-return-filing",
         },
         {
           title: "ESI Registration",
-          path: "",
+          path: "/esi-registration",
         },
         {
           title: "Share Transfer",
-          path: "",
+          path: "/share-transfer",
         },
         {
           title: "DIR-3 KYC",
-          path: "",
+          path: "/dir-3-kyc",
         },
       ],
       [
         {
           title: "Add Directors",
-          path: "",
+          path: "/add-director",
         },
         {
           title: "Remove Directors",
-          path: "",
+          path: "/remove-director",
         },
         {
           title: "Registered Office Change",
-          path: "",
+          path: "/registered-office-change",
         },
         {
           title: "Increase Authorized Capital",
-          path: "",
+          path: "/increased-authorized-capital",
         },
         {
           title: "Winding Up of Company",
-          path: "",
+          path: "/winding-up-company",
         },
       ],
     ],
@@ -329,15 +329,15 @@ const dropdownLists = [
       [
         {
           title: "Personal Loans",
-          path: "",
+          path: "/personal-loans",
         },
         {
           title: "Business Loans",
-          path: "",
+          path: "/business-loan",
         },
         {
           title: "OPL",
-          path: "",
+          path: "/opl",
         },
       ],
     ],

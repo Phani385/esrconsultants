@@ -12,9 +12,59 @@ import IndianSubsidary from "./pages/Startup/IndianSubsidary";
 import Section8 from "./pages/Startup/Section8";
 import NidhiCompany from "./pages/Startup/NidhiCompany";
 import RegistrationSection from "./pages/registrations/page";
-import { barcodeRegistration, designRegistration, digitalSignatureContent, findTrademark, FSSAIRegistration, gstAnnualReturn, gstEInvoicing, gstInvoicing, gstLutFiling, gstRegistration, gstRegistrationCancellation, gstReturnFiling, importCertificate, inputTaxCredit, patentRegistration, professionalTax, rcmcRegistration, startUpIndiaRegistrations, trademarkObjection, trademarkOpposition, trademarkRenewal, udyamRegistration } from "../constants";
-
-
+import {
+  addDirectors,
+  annualCompliance,
+  barcodeRegistration,
+  businessLoan,
+  businessTaxFiling,
+  companyAnnualFiling,
+  companyRegisteredOffice,
+  designRegistration,
+  digitalSignatureContent,
+  dir3kyc,
+  ESIRegistration,
+  findTrademark,
+  Form16,
+  FSSAIRegistration,
+  gstAnnualReturn,
+  gstEInvoicing,
+  gstInvoicing,
+  gstLutFiling,
+  gstRegistration,
+  gstRegistrationCancellation,
+  gstReturnFiling,
+  healthInsurance,
+  importCertificate,
+  incomeTaxNotice,
+  increaseAuthorizedCapital,
+  inputTaxCredit,
+  ITR1Filing,
+  ITR2Filing,
+  ITR3Filing,
+  ITR4Filing,
+  ITR5Filing,
+  ITR6Filing,
+  ITR7Filing,
+  lifeInsurance,
+  motorInsurance,
+  overdraftProtectionLoan,
+  patentRegistration,
+  payroll,
+  personalLoan,
+  pfRegistration,
+  pfReturnFiling,
+  professionalTax,
+  rcmcRegistration,
+  removeDirector,
+  shareTransfer,
+  startUpIndiaRegistrations,
+  trademarkObjection,
+  trademarkOpposition,
+  trademarkRenewal,
+  udyamRegistration,
+  windingUpCompany,
+} from "../constants";
 
 const App = () => {
   return (
@@ -44,17 +94,17 @@ const App = () => {
         path="/digital-signature"
         element={<RegistrationSection content={digitalSignatureContent} />}
       />
-       <Route
+      <Route
         exact
         path="/udyam-registration"
         element={<RegistrationSection content={udyamRegistration} />}
       />
-       <Route
+      <Route
         exact
         path="/startup-india-registration"
         element={<RegistrationSection content={startUpIndiaRegistrations} />}
       />
-       <Route
+      <Route
         exact
         path="/fssai-registration"
         element={<RegistrationSection content={FSSAIRegistration} />}
@@ -94,7 +144,7 @@ const App = () => {
         path="/trademark-opposition"
         element={<RegistrationSection content={trademarkOpposition} />}
       />
-       <Route
+      <Route
         exact
         path="/find-trademark"
         element={<RegistrationSection content={findTrademark} />}
@@ -139,7 +189,7 @@ const App = () => {
         path="/gst-registration-cancellation"
         element={<RegistrationSection content={gstRegistrationCancellation} />}
       />
-       <Route
+      <Route
         exact
         path="/gst-annual-return"
         element={<RegistrationSection content={gstAnnualReturn} />}
@@ -149,7 +199,7 @@ const App = () => {
         path="/gst-invoicing"
         element={<RegistrationSection content={gstInvoicing} />}
       />
-       <Route
+      <Route
         exact
         path="/gst-einvoicing"
         element={<RegistrationSection content={gstEInvoicing} />}
@@ -163,6 +213,171 @@ const App = () => {
         exact
         path="/gst-software-for-accountants"
         element={<RegistrationSection content={gstAnnualReturn} />}
+      />
+      <Route
+        exact
+        path="/personal-tax-filing"
+        element={<RegistrationSection content={gstAnnualReturn} />}
+      />
+      <Route
+        exact
+        path="/business-tax-filing"
+        element={<RegistrationSection content={businessTaxFiling} />}
+      />
+      <Route
+        exact
+        path="/tax-notice"
+        element={<RegistrationSection content={incomeTaxNotice} />}
+      />
+      <Route
+        exact
+        path="/tds-filing"
+        element={<RegistrationSection content={gstAnnualReturn} />}
+      />
+      <Route
+        exact
+        path="/itr-1-return"
+        element={<RegistrationSection content={ITR1Filing} />}
+      />
+      <Route
+        exact
+        path="/itr-2-return"
+        element={<RegistrationSection content={ITR2Filing} />}
+      />
+      <Route
+        exact
+        path="/itr-3-return"
+        element={<RegistrationSection content={ITR3Filing} />}
+      />
+      <Route
+        exact
+        path="/itr-4-return"
+        element={<RegistrationSection content={ITR4Filing} />}
+      />
+      <Route
+        exact
+        path="/itr-5-return"
+        element={<RegistrationSection content={ITR5Filing} />}
+      />
+      <Route
+        exact
+        path="/itr-6-return"
+        element={<RegistrationSection content={ITR6Filing} />}
+      />
+      <Route
+        exact
+        path="/itr-7-return"
+        element={<RegistrationSection content={ITR7Filing} />}
+      />
+      <Route
+        exact
+        path="/form-16"
+        element={<RegistrationSection content={Form16} />}
+      />
+      <Route
+        exact
+        path="/company-annual-filing"
+        element={<RegistrationSection content={companyAnnualFiling} />}
+      />
+      <Route
+        exact
+        path="/llp-compliance"
+        element={<RegistrationSection content={annualCompliance} />}
+      />
+      <Route
+        exact
+        path="/payroll"
+        element={<RegistrationSection content={payroll} />}
+      />
+      <Route
+        exact
+        path="/pf-registration"
+        element={<RegistrationSection content={pfRegistration} />}
+      />
+      <Route
+        exact
+        path="/pf-return-filing"
+        element={<RegistrationSection content={pfReturnFiling} />}
+      />
+      <Route
+        exact
+        path="/esi-registration"
+        element={<RegistrationSection content={ESIRegistration} />}
+      />
+      <Route
+        exact
+        path="/share-transfer"
+        element={<RegistrationSection content={shareTransfer} />}
+      />
+      <Route
+        exact
+        path="/add-director"
+        element={<RegistrationSection content={addDirectors} />}
+      />
+      <Route
+        exact
+        path="/remove-director"
+        element={<RegistrationSection content={removeDirector} />}
+      />
+      <Route
+        exact
+        path="/remove-director"
+        element={<RegistrationSection content={removeDirector} />}
+      />
+      <Route
+        exact
+        path="/dir-3-kyc"
+        element={<RegistrationSection content={dir3kyc} />}
+      />
+      <Route
+        exact
+        path="/registered-office-change"
+        element={<RegistrationSection content={companyRegisteredOffice} />}
+      />
+      <Route
+        exact
+        path="/registered-office-change"
+        element={<RegistrationSection content={increaseAuthorizedCapital} />}
+      />
+      <Route
+        exact
+        path="/increase-authorized-capital"
+        element={<RegistrationSection content={increaseAuthorizedCapital} />}
+      />
+      <Route
+        exact
+        path="/winding-up-company"
+        element={<RegistrationSection content={windingUpCompany} />}
+      />
+      <Route
+        exact
+        path="/personal-loan"
+        element={<RegistrationSection content={personalLoan} />}
+      />
+      <Route
+        exact
+        path="/business-loan"
+        element={<RegistrationSection content={businessLoan} />}
+      />
+      <Route
+        exact
+        path="/opl"
+        element={<RegistrationSection content={overdraftProtectionLoan} />}
+      />
+      <Route
+        exact
+        path="/health-insurance"
+        element={<RegistrationSection content={healthInsurance} />}
+      />
+      <Route
+        exact
+        path="/life-insurance"
+        element={<RegistrationSection content={lifeInsurance} />}
+      />
+      <Route
+        exact
+        path="/motor-insurance"
+        element={<RegistrationSection content={motorInsurance} />}
       />
     </Routes>
   );
