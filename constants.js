@@ -423,7 +423,7 @@ export const businessTaxFiling = {
   title: "Business Income Tax Return (ITR) Filing Online",
   description: [
     "Setting up a business and understanding the complexities of filing returns is essential to running a business. A business tax return is an income tax return filing applicable to companies. It serves as a comprehensive record of the business's earnings and expenses.",
-    "Business Income Tax return filings in India just got more straightforward with IndiaFilings. We are here to help businesses easily file their tax returns. Our expert team makes the process less stressful, so you don't miss deadlines or break any rules. It doesn't matter if your business is starting or already big – we are here to help.",
+    "Business Income Tax return filings in India just got more straightforward with ESR Consultants. We are here to help businesses easily file their tax returns. Our expert team makes the process less stressful, so you don't miss deadlines or break any rules. It doesn't matter if your business is starting or already big – we are here to help.",
     "Ready to simplify your business taxes? Reach out to us today and discover smoother and stress-free Business Tax Return Filings!",
   ],
   subHeading1: "What is a business tax return?",
@@ -431,10 +431,10 @@ export const businessTaxFiling = {
     "A business tax return refers to an income tax return for businesses. A business income tax return is a comprehensive report that outlines a business's income, expenses, and pertinent tax details, all presented in a designated form. It entails the submission of income tax returns for businesses, with the added requirement of reporting Tax Deducted at Source (TDS). This process must be carried out annually.",
     "This return serves as a financial statement detailing earnings. It outlays and is a documentation of additional financial components like fixed assets, loans obtained, loans extended, debtors, and creditors within the business.",
   ],
-  finalHeading: "How IndiaFilings Can Assist with Business Tax Return Filings",
+  finalHeading: "How ESR Consultants Can Assist with Business Tax Return Filings",
   finalParagraph: [
-    "Navigating the intricate world of business tax filing is made effortless with IndiaFilings. Our dedicated services offer comprehensive support to ensure your tax obligations are met seamlessly. Our platform provides a user-friendly interface that guides you through the step-by-step filing process. Our experienced professionals are well-versed in the nuances of tax regulations, ensuring accurate and timely submissions. We're here to aid businesses of all types in effortlessly filing their tax returns.",
-    "With our user-friendly platform and seasoned team, the process becomes less daunting, ensuring deadlines and rules are followed. We will keep you well-informed about crucial deadlines, assist in selecting the appropriate ITR form, and guide you through a meticulous, error-free filing process. With IndiaFilings, you can confidently handle your business tax filing, saving time and minimizing the complexities involved.",
+    "Navigating the intricate world of business tax filing is made effortless with ESR Consultants. Our dedicated services offer comprehensive support to ensure your tax obligations are met seamlessly. Our platform provides a user-friendly interface that guides you through the step-by-step filing process. Our experienced professionals are well-versed in the nuances of tax regulations, ensuring accurate and timely submissions. We're here to aid businesses of all types in effortlessly filing their tax returns.",
+    "With our user-friendly platform and seasoned team, the process becomes less daunting, ensuring deadlines and rules are followed. We will keep you well-informed about crucial deadlines, assist in selecting the appropriate ITR form, and guide you through a meticulous, error-free filing process. With ESR Consultants, you can confidently handle your business tax filing, saving time and minimizing the complexities involved.",
     "Ready to simplify your business tax returns? Reach out to us today for seamless and stress-free filing.",
   ],
 };
@@ -443,14 +443,14 @@ export const incomeTaxNotice = {
   title: "Income Tax Notice",
   description: [
     "The Income Tax Department sends notices for various reasons, such as not filing the income tax returns, any defect while filing the returns, or other instances where the tax department requires additional documents or information. Nothing is frightening or alarming about the notice that is received. However, the taxpayer first has to understand the notice, the nature of the notice, and the requestor's order in the notice, and then take steps to comply.",
-    "IndiaFilings offers a comprehensive suite of services to help families and businesses maintain compliance. If an income tax notice is received, contact the Tax Expert at IndiaFilings to understand the income tax notice and determine a course of action.",
+    "ESR Consultants offers a comprehensive suite of services to help families and businesses maintain compliance. If an income tax notice is received, contact the Tax Expert at ESR Consultants to understand the income tax notice and determine a course of action.",
   ],
   subHeading1: "What is an Income tax Notice?",
   subParas1:
     "As mentioned above, An income tax department notice is a formal communication issued by the Income Tax Department to a taxpayer. It can relate to various aspects of income tax filing and compliance, such as requests for additional information, clarification of discrepancies in a tax return, audits, tax payment demands, or refund notifications. The income tax department notice specifies the details of what the department requires from the taxpayer, ranging from submitting specific documents to explaining income or deductions claimed.",
-  finalHeading: "How Can IndiaFilings Assist with Your Income Tax Notice?",
+  finalHeading: "How Can ESR Consultants Assist with Your Income Tax Notice?",
   finalParagraph: [
-    "IndiaFilings can assist in responding to Income Tax notices through",
+    "ESR Consultants can assist in responding to Income Tax notices through",
     "Expert Consultation: Providing personalised guidance from experienced Tax Experts.",
     "Notice Analysis: Help understand the specifics and requirements of your Income Tax notice.",
     "Document Identification: Assist in identifying and compiling the necessary documentation for your response.",
@@ -462,24 +462,24 @@ export const incomeTaxNotice = {
 export const tdsFiling = {
   title: "TDS Return Filing",
   description: [
-    "Tax Deduction at Source refers to deducting tax from income at the point of payment. Entities and individuals who engage in tax deductions at the source are legally required to file TDS returns quarterly, detailing the specifics of these deductions. While navigating the intricacies of TDS returns can be challenging, IndiaFilings provides expert assistance to streamline the process. Our team guides you through each step, ensuring your TDS return filing is accurate, compliant, and timely, helping you easily navigate the intricacies of tax regulations.",
-    "Let IndiaFilings Simplify Your TDS Return Filing Today – Get Expert Assistance for Accurate and Timely Compliance!",
+    "Tax Deduction at Source refers to deducting tax from income at the point of payment. Entities and individuals who engage in tax deductions at the source are legally required to file TDS returns quarterly, detailing the specifics of these deductions. While navigating the intricacies of TDS returns can be challenging, ESR Consultants provides expert assistance to streamline the process. Our team guides you through each step, ensuring your TDS return filing is accurate, compliant, and timely, helping you easily navigate the intricacies of tax regulations.",
+    "Let ESR Consultants Simplify Your TDS Return Filing Today – Get Expert Assistance for Accurate and Timely Compliance!",
   ],
   subHeading1: "TDS - Tax Deducted at Source",
   subParas1: [
     "TDS stands for Tax Deducted at Source, a method where income tax is automatically deducted from an individual's payments during certain transactions, such as salary, rent, interest, professional fees, and commissions. Typically, the recipient is obligated to pay the income tax. However, the TDS mechanism allows the tax to be collected upfront from the payments made, ensuring timely tax collection by the government.",
     "The amount received after the TDS deduction is the recipient's net income, and they must then report the gross amount (before the TDS deduction) in their tax return.",
   ],
-  finalHeading: "Why Choose IndiaFilings for Your TDS Return Filing?",
+  finalHeading: "Why Choose ESR Consultants for Your TDS Return Filing?",
   finalParagraph:
-    "With IndiaFilings, you get expert guidance throughout the TDS return filing process. Our experienced professionals help you navigate complex tax regulations effortlessly. We ensure compliance by staying updated on the latest tax laws, helping you avoid penalties and legal issues. Our streamlined service simplifies TDS calculations, form submissions, and documentation management. Whether you're an individual taxpayer or a business, our comprehensive support ensures a stress-free filing experience.",
+    "With ESR Consultants, you get expert guidance throughout the TDS return filing process. Our experienced professionals help you navigate complex tax regulations effortlessly. We ensure compliance by staying updated on the latest tax laws, helping you avoid penalties and legal issues. Our streamlined service simplifies TDS calculations, form submissions, and documentation management. Whether you're an individual taxpayer or a business, our comprehensive support ensures a stress-free filing experience.",
 };
 
 export const ITR1Filing = {
   title: "ITR-1 (Sahaj) Filing",
   description: [
     "ITR, or Income Tax Return, is a crucial document in which taxpayers report their income and applicable taxes to the income tax department. The Income Tax Act of 1961 outlines all the ITR forms and their procedures. Among these forms, ITR-1, often referred to as Sahaj, holds particular significance. ITR1 (Sahaj) is designed for individuals with an income of up to Rs.50 lakhs, making it applicable to most salaried individuals.",
-    "IndiaFilings offers a seamless and efficient solution for filing Income Tax Returns using the ITR1 form in India. Our team of experts guides you through the entire process, ensuring that you meet your tax compliance obligations effortlessly. With IndiaFilings' ITR 1 filing Services, you can navigate the complexities of tax submission with ease, allowing you to focus on what matters most while we handle your tax return needs. Get started today!",
+    "ESR Consultants offers a seamless and efficient solution for filing Income Tax Returns using the ITR1 form in India. Our team of experts guides you through the entire process, ensuring that you meet your tax compliance obligations effortlessly. With ESR Consultants' ITR 1 filing Services, you can navigate the complexities of tax submission with ease, allowing you to focus on what matters most while we handle your tax return needs. Get started today!",
   ],
   subHeading1: "What is ITR 1 Sahaj Form?",
   subParas1: [
@@ -488,11 +488,11 @@ export const ITR1Filing = {
     "The ITR-1 Sahaj Form, as its name implies, serves as a simplified means for individual taxpayers to file their income tax returns. This form is specifically tailored for resident individuals in India whose total income falls below the Rs. 50 Lakhs threshold and originates from the following sources like Income from Salary or Pension, Income from a Single House Property, Income from Other Sources",
     "The ITR-1 Form simplifies the procedure for eligible individuals to disclose their income tax information, offering a convenient and effective approach to fulfilling their tax obligations.",
   ],
-  finalHeading: "How can IndiaFilings help in ITR-1 (Sahaj)?",
+  finalHeading: "How can ESR Consultants help in ITR-1 (Sahaj)?",
   finalParagraph: [
-    "IndiaFilings provides valuable assistance in filing your ITR-1 (Sahaj) income tax return. We start by helping you select the appropriate form based on your income sources, ensuring accuracy in filing.",
+    "ESR Consultants provides valuable assistance in filing your ITR-1 (Sahaj) income tax return. We start by helping you select the appropriate form based on your income sources, ensuring accuracy in filing.",
     "We meticulously calculate your tax liability, perform error checks, and prioritize timely filing to reduce the risk of penalties or tax notices. If eligible, we assist in processing your income tax refund efficiently.",
-    "Our team of tax experts is available to address your queries and provide guidance throughout the process. IndiaFilings also keeps you updated on tax law changes and deadlines, ensuring your compliance with the latest regulations. With our secure platform, you can trust us to safeguard your financial data while simplifying your ITR-1 filing experience.",
+    "Our team of tax experts is available to address your queries and provide guidance throughout the process. ESR Consultants also keeps you updated on tax law changes and deadlines, ensuring your compliance with the latest regulations. With our secure platform, you can trust us to safeguard your financial data while simplifying your ITR-1 filing experience.",
   ],
 };
 
@@ -500,35 +500,35 @@ export const ITR2Filing = {
   title: "Expert Assistance for ITR 2 Form Filing",
   description: [
     "ITR, or Income Tax Return, is a crucial document in which taxpayers report their Income and applicable taxes to the income tax department. The Income Tax Act of 1961 outlines all the ITR forms and their procedures. Among these forms, ITR2 is designated for individuals and Hindu Undivided Families who do not generate Income from professional or business activities. Understanding what is ITR 2 is crucial for individuals having income from sources such as salary, house property, capital gains, or other sources apart from business or profession.",
-    "IndiaFilings offers a seamless and efficient solution for filing Income Tax Returns using the ITR2 form in India. Our team of experts guides you through the entire process, ensuring that you meet your tax compliance obligations effortlessly. With IndiaFilings' ITR-2 Filing Services, you can easily navigate the complexities of tax submission, allowing you to focus on what matters most while we handle your tax return needs. Get started today!",
+    "ESR Consultants offers a seamless and efficient solution for filing Income Tax Returns using the ITR2 form in India. Our team of experts guides you through the entire process, ensuring that you meet your tax compliance obligations effortlessly. With ESR Consultants' ITR-2 Filing Services, you can easily navigate the complexities of tax submission, allowing you to focus on what matters most while we handle your tax return needs. Get started today!",
   ],
   subHeading1: "What is ITR 2?",
   subParas1: [
     "In India, taxpayers are categorized based on Income, and specific Income Tax Return (ITR) forms are assigned to individuals according to their income sources. Among these forms, ITR-2 is designated for individuals and Hindu Undivided Families who do not generate Income from professional or business activities.",
   ],
-  finalHeading: "Why Choose IndiaFilings for ITR-2?",
+  finalHeading: "Why Choose ESR Consultants for ITR-2?",
   finalParagraph: [
     "Expert Guidance: Our experienced professionals will provide expert guidance throughout the ITR-2 filing process, ensuring accuracy and compliance.",
     "Convenience: We offer a convenient online platform that allows you to file your returns from the comfort of your home or office. Say goodbye to long queues and paperwork.",
     "Accuracy: Our thorough review process guarantees that your ITR-2 is error-free, minimizing the risk of tax-related issues in the future.",
     "Accuracy: Our thorough review process guarantees that your ITR-2 is error-free, minimizing the risk of tax-related issues in the future",
-    "Contact IndiaFilings today, and our team will assist you every step of the way. Enjoy peace of mind knowing that your taxes are in expert hands.",
+    "Contact ESR Consultants today, and our team will assist you every step of the way. Enjoy peace of mind knowing that your taxes are in expert hands.",
   ],
 };
 
 export const ITR3Filing = {
   title: "Expert Assistance for ITR 3 Form Filing",
   description: [
-    "At IndiaFilings, we're your trusted partner for simplifying the ITR-3 form filing process, making it easy, precise, and stress-free. As a leading online platform specializing in tax and compliance solutions, we understand that navigating the intricacies of income tax returns can be overwhelming. Whether you're an individual with income from business or a Hindu Undivided Family (HUF) looking to meet your tax obligations, our expert team is here to assist you at every step.",
+    "At ESR Consultants, we're your trusted partner for simplifying the ITR-3 form filing process, making it easy, precise, and stress-free. As a leading online platform specializing in tax and compliance solutions, we understand that navigating the intricacies of income tax returns can be overwhelming. Whether you're an individual with income from business or a Hindu Undivided Family (HUF) looking to meet your tax obligations, our expert team is here to assist you at every step.",
   ],
   subHeading1: "What is ITR 3 Form?",
   subParas1: [
     "The ITR 3 Form is crucial for taxpayers earning income from a business or a profession. It plays a vital role in the Income Tax Department's efforts to collect comprehensive financial information, ensuring tax compliance.",
   ],
-  finalHeading: "How IndiaFilings Simplifies Your ITR-3 Filing",
+  finalHeading: "How ESR Consultants Simplifies Your ITR-3 Filing",
   finalParagraph: [
-    "Filing your ITR-3 form accurately and on time is crucial. IndiaFilings makes it hassle-free with expert guidance, a user-friendly platform, document management, deduction optimization, review and verifying ITR 3 applicability, secure filing, timely reminders, and post-filing support.",
-    "Let IndiaFilings assist you in filing your ITR-3 form, allowing you to focus on your business and financial well-being. Contact us today for expert assistance in meeting your tax obligations and ensuring a smooth filing experience.",
+    "Filing your ITR-3 form accurately and on time is crucial. ESR Consultants makes it hassle-free with expert guidance, a user-friendly platform, document management, deduction optimization, review and verifying ITR 3 applicability, secure filing, timely reminders, and post-filing support.",
+    "Let ESR Consultants assist you in filing your ITR-3 form, allowing you to focus on your business and financial well-being. Contact us today for expert assistance in meeting your tax obligations and ensuring a smooth filing experience.",
   ],
 };
 
@@ -536,19 +536,19 @@ export const ITR4Filing = {
   title: "ITR-4 Return Filing",
   description: [
     "The ITR-4 Form, commonly referred to as the Sugam form, is specifically designed for taxpayers who have opted for the presumptive income scheme outlined in Section 44AD, Section 44ADA, and Section 44AE of the Income Tax Act. It is mandatory for eligible taxpayers to complete and submit this form.",
-    "However, for businesses with an annual turnover exceeding Rs. 2 Crores, ITR-3 should be used. Additionally, depending on individual circumstances, ITR-5 may also be required. IndiaFilings offers expert assistance for the ITR 4 income tax filing. Contact our experts today to ensure a smooth and accurate filing process.",
+    "However, for businesses with an annual turnover exceeding Rs. 2 Crores, ITR-3 should be used. Additionally, depending on individual circumstances, ITR-5 may also be required. ESR Consultants offers expert assistance for the ITR 4 income tax filing. Contact our experts today to ensure a smooth and accurate filing process.",
   ],
   subHeading1: "Who is Eligible to file Form ITR 4 Form?",
   subParas1: [
     "ITR 4 Form is the Income Tax Return form designed for individuals, Hindu Undivided Families (HUFs), and firms (excluding Limited Liability Partnerships or LLPs) who choose to utilize the presumptive income scheme as per Sections 44AD, 44ADA, and 44AE of the Income Tax Act.",
   ],
-  finalHeading: "Why Choose IndiaFilings for ITR4?",
+  finalHeading: "Why Choose ESR Consultants for ITR4?",
   finalParagraph: [
     "Expert Guidance: Benefit from the expertise of our professionals, who will guide you through the ITR 4 income tax filing process, ensuring accuracy, verifying ITR 4 applicability, and complying with tax regulations.",
     "Convenience: Enjoy the ease and convenience of our online platform, allowing you to file your ITR4 from the comfort of your home or office. Say goodbye to time-consuming queues and paperwork.",
     "Accuracy: Our rigorous review process guarantees that your ITR4 is free from errors, reducing the risk of potential tax-related issues in the future.",
-    "Timely Filing: We understand the significance of filing your taxes on time. With IndiaFilings, you can be confident that your ITR 4 income tax form will be filed promptly, helping you avoid penalties and meet tax deadlines.",
-    "Contact IndiaFilings today, and our dedicated team will assist you at every stage of the process.",
+    "Timely Filing: We understand the significance of filing your taxes on time. With ESR Consultants, you can be confident that your ITR 4 income tax form will be filed promptly, helping you avoid penalties and meet tax deadlines.",
+    "Contact ESR Consultants today, and our dedicated team will assist you at every stage of the process.",
   ],
 };
 
@@ -556,31 +556,31 @@ export const ITR5Filing = {
   title: "ITR-5 Return Filing",
   description: [
     "The Income Tax Department has introduced various forms for different taxpayers. An assessee should choose the appropriate ITR form as per the source of income. One such Income Tax Return (ITR) is the ITR 5 Form. It is primarily designed for firms, Association of Persons (AOP), and Body of Individuals (BOI) who are not required to file their income tax returns as companies. In other words, it is meant for entities that do not have a corporate structure but still need to report their income and taxes to the Indian Income Tax Department.",
-    "IndiaFilings is your trusted partner for hassle-free and efficient Income Tax Return (ITR) filing services in India. Our ITR-5 service is designed to cater to the specific needs of firms, the Association of Persons (AOP), and the Body of Individuals (BOI) looking to file their income tax returns seamlessly. With our user-friendly platform, expert assistance, and competitive pricing, ITR 5 income tax filing has always been a challenge.",
+    "ESR Consultants is your trusted partner for hassle-free and efficient Income Tax Return (ITR) filing services in India. Our ITR-5 service is designed to cater to the specific needs of firms, the Association of Persons (AOP), and the Body of Individuals (BOI) looking to file their income tax returns seamlessly. With our user-friendly platform, expert assistance, and competitive pricing, ITR 5 income tax filing has always been a challenge.",
   ],
   subHeading1: "Who is eligible to file the ITR 5 Form?",
   subParas1: [
     "ITR 5 Form is the Income Tax Return form designed for firms, Association of Persons (AOP), and Body of Individuals (BOI) who are not required to file their income tax returns as companies.",
   ],
-  finalHeading: "Why Choose IndiaFilings for ITR-5 Form Filing?",
+  finalHeading: "Why Choose ESR Consultants for ITR-5 Form Filing?",
   finalParagraph: [
-    "IndiaFilings is your preferred choice for ITR 5 income tax filing, offering a range of benefits that make the process easy, accurate, and hassle-free. Here's why you should choose IndiaFilings for your ITR-5 filing needs:",
-    "Let IndiaFilings assist you in ITR 5 income tax filing, allowing you to focus on your business and financial well-being. Contact us today for expert assistance in meeting your tax obligations and ensuring a smooth filing experience. With IndiaFilings, you can be confident that your ITR-5 is filed accurately and on time, providing peace of mind and ensuring compliance with tax regulations.",
+    "ESR Consultants is your preferred choice for ITR 5 income tax filing, offering a range of benefits that make the process easy, accurate, and hassle-free. Here's why you should choose ESR Consultants for your ITR-5 filing needs:",
+    "Let ESR Consultants assist you in ITR 5 income tax filing, allowing you to focus on your business and financial well-being. Contact us today for expert assistance in meeting your tax obligations and ensuring a smooth filing experience. With ESR Consultants, you can be confident that your ITR-5 is filed accurately and on time, providing peace of mind and ensuring compliance with tax regulations.",
   ],
 };
 
 export const ITR6Filing = {
   title: "ITR 6 Filing",
   description: [
-    "ITR-6 filing is a crucial annual compliance requirement for corporate entities in India. The Income Tax Return form is specifically designed for companies other than those claiming exemption under section 11 (Income from property held for charitable or religious purposes). Filing ITR6 accurately and on time is essential to ensure compliance with the Income Tax Act 1961 and avoid penalties and legal complications. To simplify the ITR6 filing process and assist businesses in meeting their tax obligations efficiently, IndiaFilings provides a wide range of services tailored to suit the specific requirements of corporate entities.",
+    "ITR-6 filing is a crucial annual compliance requirement for corporate entities in India. The Income Tax Return form is specifically designed for companies other than those claiming exemption under section 11 (Income from property held for charitable or religious purposes). Filing ITR6 accurately and on time is essential to ensure compliance with the Income Tax Act 1961 and avoid penalties and legal complications. To simplify the ITR6 filing process and assist businesses in meeting their tax obligations efficiently, ESR Consultants provides a wide range of services tailored to suit the specific requirements of corporate entities.",
   ],
   subHeading1: "Who Can File ITR-6 Form?",
   subParas1: [
     "ITR-6 is suitable for companies that do not seek exemption under section 11 (Income from property held for charitable or religious purposes).",
   ],
-  finalHeading: "How IndiaFilings Can in Filing ITR6?",
+  finalHeading: "How ESR Consultants Can in Filing ITR6?",
   finalParagraph: [
-    "IndiaFilings is a reputable online platform known for its tax and compliance services expertise. When it comes to ITR6 filing, IndiaFilings offers a range of services to assist corporate entities",
+    "ESR Consultants is a reputable online platform known for its tax and compliance services expertise. When it comes to ITR6 filing, ESR Consultants offers a range of services to assist corporate entities",
     "Contact our experts now and experience the convenience of seamless tax compliance.",
   ],
 };
@@ -588,8 +588,8 @@ export const ITR6Filing = {
 export const ITR7Filing = {
   title: "ITR-7 Return Filing",
   description: [
-    "ITR-7 is a specialized income tax return form designed for specific entities like firms, companies, local authorities, associations of persons (AOPs), and artificial judicial persons claiming exemptions under various sections of the Income Tax Act. Filing ITR-7 can be a complex process, but with IndiaFilings, you can navigate it effortlessly. Our expert team streamlines the ITR-7 filing process, ensuring compliance and accuracy.",
-    "Get Started with IndiaFilings and file your ITR-7 with ease.",
+    "ITR-7 is a specialized income tax return form designed for specific entities like firms, companies, local authorities, associations of persons (AOPs), and artificial judicial persons claiming exemptions under various sections of the Income Tax Act. Filing ITR-7 can be a complex process, but with ESR Consultants, you can navigate it effortlessly. Our expert team streamlines the ITR-7 filing process, ensuring compliance and accuracy.",
+    "Get Started with ESR Consultants and file your ITR-7 with ease.",
   ],
   subHeading1: "What is the ITR 7 Form?",
   subParas1: [
@@ -599,10 +599,10 @@ export const ITR7Filing = {
     "Under Section 139(4C): Scientific Research Institutions",
     "Under Section 139(4D): Universities, Colleges, Institutions, or Khadi and Village Industries",
   ],
-  finalHeading: "Effortless ITR7 Filing with IndiaFilings",
+  finalHeading: "Effortless ITR7 Filing with ESR Consultants",
   finalParagraph: [
-    "IndiaFilings simplifies the process of filing ITR7 and ensures a hassle-free experience for taxpayers. Our expert team is well-versed in the nuances of ITR7 filings, ensuring all regulatory requirements are met accurately and on time. We offer comprehensive support, from document preparation to submission, and guide you through the process. With IndiaFilings, you can rest assured that your ITR-7 filings will be seamless, compliant, and stress-free, allowing you to focus on your core activities confidently.",
-    "Get Started with IndiaFilings and file your ITR-7 with ease. Experience hassle-free tax compliance today!",
+    "ESR Consultants simplifies the process of filing ITR7 and ensures a hassle-free experience for taxpayers. Our expert team is well-versed in the nuances of ITR7 filings, ensuring all regulatory requirements are met accurately and on time. We offer comprehensive support, from document preparation to submission, and guide you through the process. With ESR Consultants, you can rest assured that your ITR-7 filings will be seamless, compliant, and stress-free, allowing you to focus on your core activities confidently.",
+    "Get Started with ESR Consultants and file your ITR-7 with ease. Experience hassle-free tax compliance today!",
   ],
 };
 
@@ -610,16 +610,16 @@ export const Form16 = {
   title: "Form 16 Issuance to Employees",
   description: [
     "Form 16 is crucial in filing your income tax return (ITR), especially for individuals who earn a salary. This official document is a certificate for Tax Deducted at Source (TDS). It offers a comprehensive summary of an employee's earnings, encompassing salary, allowances, and additional benefits over a specific financial year. Furthermore, Form 16 provides a breakdown of the Tax deducted from the employee's income, covering salary and other perks received in that fiscal year.",
-    "Employers can quickly obtain Form 16 through IndiaFilings; we simplify the generation and management of Form 16, ensuring a streamlined process and compliance with tax regulations.",
+    "Employers can quickly obtain Form 16 through ESR Consultants; we simplify the generation and management of Form 16, ensuring a streamlined process and compliance with tax regulations.",
   ],
   subHeading1: "What is Form 16?",
   subParas1: [
     "Form 16, issued under Section 203 of the Income Tax Act, 1961, is a comprehensive certificate that details an employee's salary income and the corresponding deductions made by the employer for tax-related purposes. This certificate is tangible proof of Tax Deducted at Source (TDS) and is essential when preparing and submitting income tax returns.",
     "In essence, Form 16 provides an extensive summary of the following components for a specific financial year, typically spanning from April to March:",
   ],
-  finalHeading: "Effortless Form 16 Retrieval with IndiaFilings",
+  finalHeading: "Effortless Form 16 Retrieval with ESR Consultants",
   finalParagraph: [
-    "IndiaFilings simplifies the retrieval of Form 16 for employers, offering a user-friendly solution to generate and manage these critical documents. This streamlined process ensures compliance with tax regulations and provides several benefits for both employers and employees. Through IndiaFilings, employers can efficiently and accurately provide their employees with Form 16 documents, contributing to a smooth income tax return filing process and enhancing financial transparency within the organization.",
+    "ESR Consultants simplifies the retrieval of Form 16 for employers, offering a user-friendly solution to generate and manage these critical documents. This streamlined process ensures compliance with tax regulations and provides several benefits for both employers and employees. Through ESR Consultants, employers can efficiently and accurately provide their employees with Form 16 documents, contributing to a smooth income tax return filing process and enhancing financial transparency within the organization.",
   ],
 };
 
@@ -627,31 +627,31 @@ export const companyAnnualFiling = {
   title: "Expert Guidance on Compliance for Private Limited Companies",
   description: [
     "Navigating compliance can be a complex challenge for private limited companies in India. Adhering to the comprehensive requirements of the Companies Act 2013, including director appointments, shareholder meetings, and other regulatory obligations, is crucial but can often seem overwhelming.",
-    "That's where IndiaFilings steps in. We provide expert guidance and comprehensive solutions tailored to your company's needs, simplifying the compliance process from registration to ongoing obligations. Our team of specialists is equipped with in-depth knowledge of Indian business laws and regulations, ensuring your company meets company compliance requirements. Whether you are a startup or an established enterprise, IndiaFilings is your partner in simplifying compliance.",
+    "That's where ESR Consultants steps in. We provide expert guidance and comprehensive solutions tailored to your company's needs, simplifying the compliance process from registration to ongoing obligations. Our team of specialists is equipped with in-depth knowledge of Indian business laws and regulations, ensuring your company meets company compliance requirements. Whether you are a startup or an established enterprise, ESR Consultants is your partner in simplifying compliance.",
   ],
   subHeading1: "Compliance for Private Limited Company",
   subParas1: [
     "Compliance refers to adhering to orders, rules, or requests. For a private limited company incorporated in India, Compliance with the Companies Act 2013, which includes obligations to the Registrar of Companies (RoC), is essential for private limited companies in India. This legislation governs various aspects, including the appointment, qualification, remuneration, and retirement of directors and the conduct of board and shareholder meetings. Compliance with Registrar of Companies (RoC) regulations is mandatory for every private limited company, regardless of turnover or capital amount.",
   ],
-  finalHeading: "Streamline Company Compliance with IndiaFilings",
+  finalHeading: "Streamline Company Compliance with ESR Consultants",
   finalParagraph: [
-    "With IndiaFilings, entrepreneurs can seamlessly complete their company compliance requirements.Ready to streamline compliance effortlessly? Let IndiaFilings be your trusted partner. Get started today and experience hassle-free compliance management.",
+    "With ESR Consultants, entrepreneurs can seamlessly complete their company compliance requirements.Ready to streamline compliance effortlessly? Let ESR Consultants be your trusted partner. Get started today and experience hassle-free compliance management.",
   ],
 };
 
 export const annualCompliance = {
   title: "Annual Compliance of Limited Liability Partnership (LLP)",
   description: [
-    "For a Limited Liability Partnership (LLP), regular filing of returns is essential to uphold LLP compliance standards and steer clear of substantial penalties for non-compliance. LLPs benefit from a relatively lighter annual compliance burden compared to private limited companies. Nevertheless, the potential fines for non-compliance can be significant. While a Private Limited company might face penalties of INR 1 lakh for non-compliance, LLPs could incur penalties of up to INR 5 lakh. At IndiaFilings, we understand the critical importance of adhering to these annual compliances of LLP requirements, and our services are tailored to assist LLPs in meeting their obligations efficiently and effectively.",
+    "For a Limited Liability Partnership (LLP), regular filing of returns is essential to uphold LLP compliance standards and steer clear of substantial penalties for non-compliance. LLPs benefit from a relatively lighter annual compliance burden compared to private limited companies. Nevertheless, the potential fines for non-compliance can be significant. While a Private Limited company might face penalties of INR 1 lakh for non-compliance, LLPs could incur penalties of up to INR 5 lakh. At ESR Consultants, we understand the critical importance of adhering to these annual compliances of LLP requirements, and our services are tailored to assist LLPs in meeting their obligations efficiently and effectively.",
     "Get started today to ensure your LLP compliance and avoid penalties.",
   ],
   subHeading1: "Maintenance of Proper Book of Accounts",
   subParas1: [
     "In LLP annual filing, one must diligently maintain accurate and up-to-date financial records. These records should encompass details of the LLP's financial transactions, profits, expenses, assets, and liabilities. Proper bookkeeping is crucial to assess the financial health and performance of the LLP.",
   ],
-  finalHeading: "Why IndiaFilings?",
+  finalHeading: "Why ESR Consultants?",
   finalParagraph: [
-    "IndiaFilings simplifies the LLP annual filing process by providing expert guidance and handling essential tasks. Our experts assist in preparing accurate documents, obtaining necessary digital signatures, and ensuring certification by qualified professionals. We emphasize timely filings to avoid penalties and maintain LLP annual compliance with regulations. Our streamlined approach allows you to focus on your business while we handle the paperwork, reducing the risk of non-compliance penalties. In a nutshell, IndiaFilings makes the LLP annual filing straightforward and ensures your adherence to legal requirements with ease.",
+    "ESR Consultants simplifies the LLP annual filing process by providing expert guidance and handling essential tasks. Our experts assist in preparing accurate documents, obtaining necessary digital signatures, and ensuring certification by qualified professionals. We emphasize timely filings to avoid penalties and maintain LLP annual compliance with regulations. Our streamlined approach allows you to focus on your business while we handle the paperwork, reducing the risk of non-compliance penalties. In a nutshell, ESR Consultants makes the LLP annual filing straightforward and ensures your adherence to legal requirements with ease.",
     "Get started now to streamline your LLP annual filings.",
   ],
 };
@@ -659,9 +659,9 @@ export const annualCompliance = {
 export const payroll = {
   title: "Payroll/HR Management Processing",
   description: [
-    "IndiaFilings.com offers a comprehensive HR and Payroll Software service that simplifies your business's payroll processing and tax compliance. Our team of experts provides a dedicated accountant to manage your payroll and tax filings, ensuring compliance with government regulations and avoiding legal issues.",
+    "ESR Consultants.com offers a comprehensive HR and Payroll Software service that simplifies your business's payroll processing and tax compliance. Our team of experts provides a dedicated accountant to manage your payroll and tax filings, ensuring compliance with government regulations and avoiding legal issues.",
     "Our services include Monthly Payroll processing, TDS Filing, ESI Filing, and PF Filing. With our LEDGERS compliance platform, you can easily manage employee data, track attendance, generate pay slips, and automate payroll processes. Our software also gives you a real-time view of your financials, enabling you to make informed decisions.",
-    "At IndiaFilings.com, we are committed to providing you with the best HR and Payroll software service in India. Contact our experts today to learn how we can help your business achieve greater efficiency and compliance.",
+    "At ESR Consultants.com, we are committed to providing you with the best HR and Payroll software service in India. Contact our experts today to learn how we can help your business achieve greater efficiency and compliance.",
   ],
   subHeading1: "What is Payroll processing?",
   subParas1: [
@@ -670,9 +670,9 @@ export const payroll = {
     "Payroll and HR management also involve releasing the employees' salary, depositing the dues like TDS, PF, etc with appropriate authorities, and filing returns.",
     "Put together Payroll processing includes the calculation of the Net Pay after the tax adjustments and other deductions.",
   ],
-  finalHeading: "Why Choose IndiaFilings' HR and Payroll Management?",
+  finalHeading: "Why Choose ESR Consultants' HR and Payroll Management?",
   finalParagraph: [
-    "At IndiaFilings, we understand businesses' challenges when managing their HR and payroll processes. That's why we offer a comprehensive HR and payroll management service tailored to your needs. Choose IndiaFilings for HR and Payroll Management, and experience seamless and hassle-free HR and payroll management while compliant with government regulations. Contact us today to learn more about how we can help your business.",
+    "At ESR Consultants, we understand businesses' challenges when managing their HR and payroll processes. That's why we offer a comprehensive HR and payroll management service tailored to your needs. Choose ESR Consultants for HR and Payroll Management, and experience seamless and hassle-free HR and payroll management while compliant with government regulations. Contact us today to learn more about how we can help your business.",
   ],
 };
 
@@ -680,24 +680,24 @@ export const pfRegistration = {
   title: "PF registration",
   description: [
     "PF registration is the procedure through which an establishment or employer registers with the Employees' Provident Fund Organisation (EPFO) to become part of the Provident Fund (PF) scheme. This EPF registration is a crucial step for businesses to ensure that their employees are enrolled in this mandatory savings and pension scheme, which provides financial security in retirement, during medical emergencies, or other unforeseen circumstances.",
-    "IndiaFilings offers expert assistance to streamline the PF registration process for companies. With comprehensive support, we ensure that the PF registration online is handled efficiently, allowing businesses to comply with regulatory requirements without hassle.",
+    "ESR Consultants offers expert assistance to streamline the PF registration process for companies. With comprehensive support, we ensure that the PF registration online is handled efficiently, allowing businesses to comply with regulatory requirements without hassle.",
   ],
   subHeading1: "Overview of the EPF Scheme",
   subParas1: [
     "The EPF (Employees' Provident Fund) Scheme is a pivotal social security initiative established by the government to foster savings among employees and ensure they have financial support after retirement. This program is integral to helping employees build a substantial retirement corpus through regular, mandatory contributions from the employee and their employer.",
   ],
-  finalHeading: "Streamline Your PF Registration with IndiaFilings",
+  finalHeading: "Streamline Your PF Registration with ESR Consultants",
   finalParagraph: [
-    "IndiaFilings can help streamline the PF registration process with affordable PF registration fees. Our experts provide comprehensive support, ensuring your registration is completed accurately and efficiently. From preparing and submitting all necessary documents to obtaining your PF code, we manage the entire PF apply online process, allowing you to focus on growing your business. With our user-friendly platform and dedicated customer service, you can trust IndiaFilings to handle your PF registration online with the utmost professionalism and reasonable PF registration fees.",
-    "Ready to simplify your PF registration? Contact IndiaFilings today and let our experts take care of everything for you!",
-    "Once PF registration is completed, you must regularly file PF returns to report employee contributions and ensure compliance with statutory requirements. IndiaFilings experts can assist you in managing these filings efficiently, ensuring timely compliance and avoiding penalties.",
+    "ESR Consultants can help streamline the PF registration process with affordable PF registration fees. Our experts provide comprehensive support, ensuring your registration is completed accurately and efficiently. From preparing and submitting all necessary documents to obtaining your PF code, we manage the entire PF apply online process, allowing you to focus on growing your business. With our user-friendly platform and dedicated customer service, you can trust ESR Consultants to handle your PF registration online with the utmost professionalism and reasonable PF registration fees.",
+    "Ready to simplify your PF registration? Contact ESR Consultants today and let our experts take care of everything for you!",
+    "Once PF registration is completed, you must regularly file PF returns to report employee contributions and ensure compliance with statutory requirements. ESR Consultants experts can assist you in managing these filings efficiently, ensuring timely compliance and avoiding penalties.",
   ],
 };
 
 export const pfReturnFiling = {
   title: "PF Return Filing",
   description: [
-    "Employee Provident Fund (PF) return filing is a fundamental responsibility for establishments with PF registration. Ensuring compliance with monthly filing requirements is essential to avoid penalties and maintain statutory adherence. At IndiaFilings, we recognize the significance of this obligation and stand ready to assist you every step of the way. Our team of experts is dedicated to providing comprehensive guidance and support throughout the PF return filing process, empowering you to fulfil your regulatory obligations easily and confidently.",
+    "Employee Provident Fund (PF) return filing is a fundamental responsibility for establishments with PF registration. Ensuring compliance with monthly filing requirements is essential to avoid penalties and maintain statutory adherence. At ESR Consultants, we recognize the significance of this obligation and stand ready to assist you every step of the way. Our team of experts is dedicated to providing comprehensive guidance and support throughout the PF return filing process, empowering you to fulfil your regulatory obligations easily and confidently.",
   ],
   subHeading1: "EPF Scheme",
   subParas1: [
@@ -705,9 +705,9 @@ export const pfReturnFiling = {
     "Under the EPF scheme, employers and employees contribute 12% of basic pay. While 3.67% of the employer's contribution is directed to the employee's EPF account, the remaining 8.33% is allocated to the Employees Pension Fund (EPF).",
     "Employees can withdraw EPF amounts upon retirement (at or after 58 years of age), unemployment for two months, or in the event of death before the specified retirement age.",
   ],
-  finalHeading: "Streamline PF Return Filing with IndiaFilings",
+  finalHeading: "Streamline PF Return Filing with ESR Consultants",
   finalParagraph: [
-    "IndiaFilings streamlines the PF filing process by offering expert assistance at every stage. Our team of professionals ensures accurate preparation of PF returns that adhere to regulatory requirements. We provide personalized guidance, helping you gather the necessary data and seamlessly navigate the filing procedure. With our expertise, you can avoid errors, meet deadlines, and maintain compliance effortlessly. Our dedicated support team is also available to address any queries or concerns, ensuring a smooth and hassle-free experience.",
+    "ESR Consultants streamlines the PF filing process by offering expert assistance at every stage. Our team of professionals ensures accurate preparation of PF returns that adhere to regulatory requirements. We provide personalized guidance, helping you gather the necessary data and seamlessly navigate the filing procedure. With our expertise, you can avoid errors, meet deadlines, and maintain compliance effortlessly. Our dedicated support team is also available to address any queries or concerns, ensuring a smooth and hassle-free experience.",
   ],
 };
 
@@ -715,16 +715,16 @@ export const ESIRegistration = {
   title: "Expert Assistance for ESI Registration",
   description: [
     "Employee State Insurance (ESI) registration is a mandatory compliance requirement for businesses in India, governed by the Employee State Insurance Corporation (ESIC). This scheme provides social security and health insurance benefits to Indian workers earning a specified monthly wage, typically extending to their dependents. Depending on the business type and location, it applies to companies with 10 or more employees.",
-    "At IndiaFilings, our team of experts is dedicated to assisting businesses in navigating the complexities of ESI registration. With our comprehensive understanding of regulatory requirements and a client-centric approach, we ensure a seamless and hassle-free ESIC registration online process for your establishment, securing the wide-ranging benefits of the ESI scheme for your employees.",
+    "At ESR Consultants, our team of experts is dedicated to assisting businesses in navigating the complexities of ESI registration. With our comprehensive understanding of regulatory requirements and a client-centric approach, we ensure a seamless and hassle-free ESIC registration online process for your establishment, securing the wide-ranging benefits of the ESI scheme for your employees.",
   ],
   subHeading1: "ESI Scheme",
   subParas1: [
     "ESI (Employee State Insurance) operates following the ESI Act of 1948. It is a government scheme designed to provide social security benefits to workers. The administration of this scheme falls under the purview of the Employee State Insurance Corporation (ESIC). Employers must formally register their establishments with ESIC and furnish worker details for inclusion in the program.",
-    "Complying with the intricate regulations stipulated by the government can pose a significant challenge for employers. IndiaFilings' ESI experts are available to assist you with these matters.",
+    "Complying with the intricate regulations stipulated by the government can pose a significant challenge for employers. ESR Consultants' ESI experts are available to assist you with these matters.",
   ],
-  finalHeading: "Why Choose IndiaFilings for ESI registration?",
+  finalHeading: "Why Choose ESR Consultants for ESI registration?",
   finalParagraph: [
-    "IndiaFilings' team of seasoned professionals, including chartered accountants and legal experts, offers premier legal and compliance ESI PF registration services in India. We recognize the critical nature of an employer's obligation for ESI registration and approach this task with the highest degree of diligence and attention to detail. Our Employee State Insurance Registration process is streamlined, efficient, and designed to save you time. Transparency is at the core of our service delivery, ensuring you receive regular updates throughout the process. Should you have any inquiries during the ESI registration or filing process, our expert team is readily available to provide you with the necessary support and guidance.",
+    "ESR Consultants' team of seasoned professionals, including chartered accountants and legal experts, offers premier legal and compliance ESI PF registration services in India. We recognize the critical nature of an employer's obligation for ESI registration and approach this task with the highest degree of diligence and attention to detail. Our Employee State Insurance Registration process is streamlined, efficient, and designed to save you time. Transparency is at the core of our service delivery, ensuring you receive regular updates throughout the process. Should you have any inquiries during the ESI registration or filing process, our expert team is readily available to provide you with the necessary support and guidance.",
   ],
 };
 
@@ -732,7 +732,7 @@ export const addDirectors = {
   title: "Addition of New Directors",
   description: [
     "In a Private Limited Company, directors are pivotal to the business's seamless operation and strategic direction, managing daily activities and making crucial decisions that affect the company's future, particularly concerning shareholder investments. As businesses evolve and expand, a need may arise to appoint additional directors to meet the growing demands of the company or to satisfy shareholder expectations. This process must be carried out strictly to the regulations outlined in the Companies Act of 2013 to ensure the company remains compliant and maintains proper governance.",
-    "IndiaFilings provides expert assistance in navigating the complexities of director appointments, ensuring that your company meets its strategic needs and remains compliant with all legal requirements. Our professional guidance is invaluable for companies looking to expand their board of directors with the process of appointment of director while ensuring adherence to the statutory framework",
+    "ESR Consultants provides expert assistance in navigating the complexities of director appointments, ensuring that your company meets its strategic needs and remains compliant with all legal requirements. Our professional guidance is invaluable for companies looking to expand their board of directors with the process of appointment of director while ensuring adherence to the statutory framework",
   ],
   subHeading1: "Who Is a Director in a Company?",
   subParas1: [
@@ -740,10 +740,10 @@ export const addDirectors = {
     "Directors are particularly crucial in a Private Limited Company, where they are responsible for daily decision-making and managing the company's affairs. Shareholders entrust directors with the significant task of managing their investments efficiently, and the shareholders' needs and demands often drive the process of appointment of director.",
   ],
   finalHeading:
-    "Simplify Director Appointments for Businesses with IndiaFilings",
+    "Simplify Director Appointments for Businesses with ESR Consultants",
   finalParagraph: [
-    "IndiaFilings provides end-to-end support, starting from reviewing the Articles of Association (AOA) to ensure they permit the addition of directors to guide companies through the process of holding general meetings, whether it's an Annual General Meeting (AGM) or an Extraordinary General Meeting (EGM), for the process of appointment of directors. IndiaFilings also assists in the application process for obtaining a Director Identification Number (DIN) and a Digital Signature Certificate (DSC) for the appointee, submitting the necessary consent forms, and filing the required documents with the Registrar of Companies (ROC). Our expertise ensures that the entire process complies with the Companies Act of 2013, making the appointment of directors seamless and legally sound for businesses in India.",
-    "Ready to streamline your director appointment process? Connect with IndiaFilings experts today and ensure seamless, legally compliant board expansions for your business.",
+    "ESR Consultants provides end-to-end support, starting from reviewing the Articles of Association (AOA) to ensure they permit the addition of directors to guide companies through the process of holding general meetings, whether it's an Annual General Meeting (AGM) or an Extraordinary General Meeting (EGM), for the process of appointment of directors. ESR Consultants also assists in the application process for obtaining a Director Identification Number (DIN) and a Digital Signature Certificate (DSC) for the appointee, submitting the necessary consent forms, and filing the required documents with the Registrar of Companies (ROC). Our expertise ensures that the entire process complies with the Companies Act of 2013, making the appointment of directors seamless and legally sound for businesses in India.",
+    "Ready to streamline your director appointment process? Connect with ESR Consultants experts today and ensure seamless, legally compliant board expansions for your business.",
   ],
 };
 
@@ -751,16 +751,16 @@ export const removeDirector = {
   title: "Removal of Director from a Company",
   description: [
     "Company Directors oversees the management and operations of a business, while shareholders own the company. Situations may arise where shareholders opt to remove a director due to inadequate performance or other concerns, or a director may choose to resign. Removing a director is a significant corporate action that requires careful deliberation and strict compliance with the legal framework provided by the Companies Act 2013 or applicable local laws. Whether initiated by an ordinary resolution, board resolution, or judicial order, the process must be conducted fairly, transparently, and in the company's best interest.",
-    "IndiaFilings specialises in navigating the intricacies of the director removal or resignation process, ensuring full compliance with legal standards and meticulous attention to detail. Let our experts assist you in navigating this critical corporate transition smoothly and effectively. Contact us today to get started.",
+    "ESR Consultants specialises in navigating the intricacies of the director removal or resignation process, ensuring full compliance with legal standards and meticulous attention to detail. Let our experts assist you in navigating this critical corporate transition smoothly and effectively. Contact us today to get started.",
   ],
   subHeading1: "Reasons for Director Removal",
   subParas1: [
     "Under The Companies Act 2013, it's mandatory for a private limited company to appoint at least two directors to commence its operations.",
     "Shareholders have the authority to dismiss a director during the General Meeting, barring instances of government-appointed directors. A director may be subject to removal under several conditions.",
   ],
-  finalHeading: "Why choose IndiaFilings for Director removal?",
+  finalHeading: "Why choose ESR Consultants for Director removal?",
   finalParagraph: [
-    "By choosing IndiaFilings, companies can ensure that the director removal process is conducted smoothly, compliantly, and with a professional touch that respects the interests of all parties involved.",
+    "By choosing ESR Consultants, companies can ensure that the director removal process is conducted smoothly, compliantly, and with a professional touch that respects the interests of all parties involved.",
   ],
 };
 
@@ -768,7 +768,7 @@ export const shareTransfer = {
   title: "Private Limited Company Share Transfer",
   description: [
     "The Share Transfer Procedure in a Private Limited Company is a structured process that facilitates sharing ownership from one individual to another. Shares represent portions of ownership within a company, and they hold the potential to be purchased, sold, or transferred. In India, the transfer of shares within a private limited company is regulated by the Companies Act 2013, along with the associated rules and guidelines set forth by the Ministry of Corporate Affairs (MCA).",
-    "At IndiaFilings, our team of experts stands prepared to facilitate the Share Transfer process for Private Limited Companies, ensuring that every step is executed following the prevailing legal standards and regulatory requirements, thereby guaranteeing a seamless transition and compliance integrity.",
+    "At ESR Consultants, our team of experts stands prepared to facilitate the Share Transfer process for Private Limited Companies, ensuring that every step is executed following the prevailing legal standards and regulatory requirements, thereby guaranteeing a seamless transition and compliance integrity.",
   ],
   subHeading1: "Meaning of Share Transfer",
   subParas1: [
@@ -776,10 +776,10 @@ export const shareTransfer = {
     "Therefore, shares in a company can be transferred much like any movable asset, unless there are specific limitations imposed by the company's articles of association.",
   ],
   finalHeading:
-    "IndiaFilings: Your Trusted Partner in Simplifying Share Transfers",
+    "ESR Consultants: Your Trusted Partner in Simplifying Share Transfers",
   finalParagraph: [
-    "The team of experts at IndiaFilings is equipped to provide comprehensive assistance with the share transfer process. Our expert knowledge and experience in navigating the complexities of corporate regulations can ensure a smooth and compliant transfer of shares in any private limited company. From reviewing the Articles of Association to ensuring the proper execution and stamping of share transfer deeds, IndiaFilings professionals can guide you through each step.",
-    "Get Expert Assistance for share transfer Now with IndiaFilings – Contact Us Today!",
+    "The team of experts at ESR Consultants is equipped to provide comprehensive assistance with the share transfer process. Our expert knowledge and experience in navigating the complexities of corporate regulations can ensure a smooth and compliant transfer of shares in any private limited company. From reviewing the Articles of Association to ensuring the proper execution and stamping of share transfer deeds, ESR Consultants professionals can guide you through each step.",
+    "Get Expert Assistance for share transfer Now with ESR Consultants – Contact Us Today!",
   ],
 };
 
@@ -808,7 +808,7 @@ export const companyRegisteredOffice = {
   title: "Company Registered Office Change",
   description: [
     "A company's registered office is its official address, listed with the Registrar of Companies (ROC), where all formal communications are received. It's a legal requirement in key company documents like the MOA and AOA. Sometimes, a company might need to change this address due to growth, better location, or cost management. Specific rules in the Companies Act 2013 guide this process. It involves steps like board meetings, shareholder approvals, and filings with the ROC, varying based on whether the move is within the same city, to another city, or a different state.",
-    "For companies looking to navigate this change of registered office smoothly, IndiaFilings offers expertise and support, ensuring efficient compliance with all legal requirements.",
+    "For companies looking to navigate this change of registered office smoothly, ESR Consultants offers expertise and support, ensuring efficient compliance with all legal requirements.",
     "Ready for a seamless transition of your company's registered office? Talk to our experts today and ensure a smooth, compliant transition!",
   ],
   subHeading1: "Registered Office of a company",
@@ -816,9 +816,9 @@ export const companyRegisteredOffice = {
     "A company's Registered Office refers to the official address legally registered with the Registrar of Companies (ROC) in the jurisdiction where the company is incorporated. This address is where all formal communications, legal documents, and official notices are sent to the company. It is a legal requirement for companies to maintain a registered office, and this address must be disclosed in the company's foundational documents, such as the Memorandum of Association (MOA) and Articles of Association (AOA).",
   ],
   finalHeading:
-    "Why IndiaFilings for Registered Office Address Change Compliance?",
+    "Why ESR Consultants for Registered Office Address Change Compliance?",
   finalParagraph: [
-    "IndiaFilings is a reliable choice for handling your company's registered office address change due to our straightforward and efficient approach. Our expertise in legal and regulatory processes ensures that your address change complies with all necessary formalities, avoiding common pitfalls. With a dedicated team to guide you through each step, from documentation to ROC filing, IndiaFilings makes the complex procedure hassle-free, allowing you to focus on your business. At the same time, we take care of the legalities.",
+    "ESR Consultants is a reliable choice for handling your company's registered office address change due to our straightforward and efficient approach. Our expertise in legal and regulatory processes ensures that your address change complies with all necessary formalities, avoiding common pitfalls. With a dedicated team to guide you through each step, from documentation to ROC filing, ESR Consultants makes the complex procedure hassle-free, allowing you to focus on your business. At the same time, we take care of the legalities.",
   ],
 };
 
@@ -826,16 +826,16 @@ export const increaseAuthorizedCapital = {
   title: "Company Authorized Capital Increase",
   description: [
     "Each business needs more funds over time to run business. These funds can be required on a long- and short-term basis. A short-term need can be satisfied by taking loans and advances. But in the long run, the company will require more funds. For a Private Limited Company, this can be done by increasing the company's authorised capital. Since the private limited company is governed and regulated under the Company Act to make changes in the structure, it is necessary to follow the Act and the rules stated.",
-    "IndiaFilings makes it easy to increase your company's authorised capital. Our experts guide you through every step, ensuring a hassle-free experience.",
+    "ESR Consultants makes it easy to increase your company's authorised capital. Our experts guide you through every step, ensuring a hassle-free experience.",
   ],
   subHeading1: "What is Authorized Capital?",
   subParas1: [
     "According to Section 2 (8) of the Companies Act 2013, “Authorized Capital” is the capital authorised by the company's memorandum to be the maximum amount of the share capital of the company.",
     "The company can expand its business to the level of the authorised capital. If the company has to expand the business, infusing more funds than at first, the company has to increase the authorised capital.",
   ],
-  finalHeading: "Why Choose IndiaFilings for Authorized Capital Increase",
+  finalHeading: "Why Choose ESR Consultants for Authorized Capital Increase",
   finalParagraph: [
-    "IndiaFilings is your ideal partner for increasing your company's authorised capital, offering a comprehensive suite of services tailored to your needs. Choosing IndiaFilings means opting for a stress-free experience backed by expertise and a commitment to your business's growth.",
+    "ESR Consultants is your ideal partner for increasing your company's authorised capital, offering a comprehensive suite of services tailored to your needs. Choosing ESR Consultants means opting for a stress-free experience backed by expertise and a commitment to your business's growth.",
   ],
 };
 
@@ -843,15 +843,15 @@ export const windingUpCompany = {
   title: "Winding up of a Company",
   description: [
     "Company winding up, or liquidation refers to the formal process through which a company concludes its operations, ultimately leading to its dissolution. This process entails the systematic closure of the company's affairs, including the sale of assets, settlement of debts from the proceeds, and distribution of any remaining surplus to the shareholders according to their stake in the company. The initiation of winding up occurs either by a court order or through a voluntary resolution passed by the company. Once the winding-up proceedings are complete, the company is officially dissolved and ceases to exist, marking the end of its corporate existence through this legal procedure.",
-    "IndiaFilings provides specialised assistance to simplify the company winding-up process, ensuring your company's seamless and efficient closure.",
+    "ESR Consultants provides specialised assistance to simplify the company winding-up process, ensuring your company's seamless and efficient closure.",
   ],
   subHeading1: "What is the Winding Up of a Company?",
   subParas1: [
     "The term 'winding up', as outlined in Section 2(94A) of the Companies Act, 2013, refers to the formal process of closing a company through the mechanisms provided by the Companies Act or by undergoing liquidation under the Insolvency and Bankruptcy Code, 2016. This process involves ceasing regular business activities, liquidating assets, and settling debts ultimately leading to the company's dissolution. Despite this, during the winding-up phase and until dissolution, the company maintains its legal entity status, allowing it to partake in legal actions within a Tribunal. The objective of winding up is to ensure an orderly closure and distribution of the company's assets.",
   ],
-  finalHeading: "Simplify the Company Winding-up Process with IndiaFilings!",
+  finalHeading: "Simplify the Company Winding-up Process with ESR Consultants!",
   finalParagraph: [
-    "Simplify your company's winding-up process with IndiaFilings, where we streamline the closure with our expert assistance, ensuring compliance and hassle-free liquidation. Our dedicated team offers tailored support, guiding you through each step, from ROC filing to final settlement, making the winding-up process straightforward and stress-free. Start your company's winding-up process with IndiaFilings. Contact us today for expert guidance and a hassle-free experience.",
+    "Simplify your company's winding-up process with ESR Consultants, where we streamline the closure with our expert assistance, ensuring compliance and hassle-free liquidation. Our dedicated team offers tailored support, guiding you through each step, from ROC filing to final settlement, making the winding-up process straightforward and stress-free. Start your company's winding-up process with ESR Consultants. Contact us today for expert guidance and a hassle-free experience.",
   ],
 };
 
