@@ -9,6 +9,8 @@ import {
   SideHeading,
   SubHeading,
 } from "../../components/UtilityComponents";
+import { sideLinks } from "../../../constants";
+
 
 const llpRequirements = [
   {

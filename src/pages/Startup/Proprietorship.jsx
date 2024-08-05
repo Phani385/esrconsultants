@@ -8,6 +8,7 @@ import {
   CheckItem,
   FooterTopLink,
 } from "../../components/UtilityComponents";
+import { sideLinks } from "../../../constants";
 import "../../index.css";
 
 const advantagesList = [
