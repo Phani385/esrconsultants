@@ -329,7 +329,7 @@ const dropdownLists = [
       [
         {
           title: "Personal Loans",
-          path: "/personal-loans",
+          path: "/personal-loan",
         },
         {
           title: "Business Loans",
@@ -348,15 +348,15 @@ const dropdownLists = [
       [
         {
           title: "Health Insurance",
-          path: "",
+          path: "/health-insurance",
         },
         {
           title: "Life Insurance",
-          path: "",
+          path: "/life-insurance",
         },
         {
           title: "Motor Insurance",
-          path: "",
+          path: "/motor-insurance",
         },
       ],
     ],
