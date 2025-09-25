@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.fillings-screen p{
+    text-align: justify;
+}
+
+
+
+.blur {
+    position: absolute;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+  }
+  

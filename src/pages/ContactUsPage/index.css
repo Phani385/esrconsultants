@@ -1,0 +1,110 @@
+form {
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 #0000, 0 0 #0000, 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+form p {
+  margin-top: 10px;
+}
+
+.input-container {
+  position: relative;
+  height: 50px;
+}
+
+.input-container input,
+.input-container textarea {
+  position: absolute;
+  z-index: 5;
+}
+
+.textarea-container {
+  height: 180px;
+}
+
+form input,
+form textarea {
+  background: transparent;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #9ca3af;
+  border-radius: 4px;
+  margin: 5px 0;
+  color: black;
+  outline: none;
+  transition: outline border 0.5s ease-in-out;
+}
+
+.input-label {
+  position: absolute;
+  color: #9ca3af;
+  padding: 18px;
+  transition: 0.2s ease;
+  z-index: 5;
+}
+
+form input:focus,
+form input:valid,
+.input-container textarea:active,
+.input-container textarea:focus {
+  border: 2px solid #1d4ed8;
+}
+
+.input-container input:focus + .input-label,
+.input-container input:valid + .input-label,
+textarea:focus ~ .input-label,
+textarea:not(:placeholder-shown) ~ .input-label {
+  transform: translate(-4px, -8px) scale(0.7);
+  padding: 0 8px;
+  color: #1d4ed8;
+  height: 20px;
+  line-height: 30px;
+  background-color: #fff;
+}
+
+input:not(:focus):valid ~ .floating-label {
+  top: -40px;
+  bottom: 10px;
+  left: 10px;
+  font-size: 25px;
+  opacity: 1;
+  color: rgb(100, 6, 6);
+}
+
+.floating-label {
+  position: absolute;
+  pointer-events: none;
+  left: 20px;
+  top: 10px;
+  transition: 0.2s ease all;
+  color: #999999;
+  font-size: 120%;
+}
+
+.buttons-container * {
+  z-index: 5;
+  margin-top: 30px;
+}
+
+.form-float {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+form p {
+  color: #6b7280;
+}
+
+.submit-btn {
+  background: #1d4ed8;
+  width: 100px;
+  margin: 14px 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px,
+    rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+}
