@@ -74,11 +74,19 @@ const Home = () => {
                 Accountants of India (ICAI) since 2013 and also be a member of
                 institute of Company Secretary of India (ICSI)..."
             />
+<<<<<<< HEAD
             {/* <HomeTeamCard
               imageUrl="https://res.cloudinary.com/dv0oedkxm/image/upload/v1690629203/profilePic_zktmsn.jpg"
               name="CA Jitu Jain"
               description="CA Jitu is a highly skilled and accomplished Charted Accountants with expertise in indirect Taxes. Jitu jain oversees the compliance and dat to day supervision of the firm. He is a partner of the ESR CORPORATE CONSULTANTS and the Indirect Tax Expertise Committee...."
             /> */}
+=======
+            <HomeTeamCard
+              imageUrl="https://res.cloudinary.com/dv0oedkxm/image/upload/v1690629203/profilePic_zktmsn.jpg"
+              name="CA Jitu Jain"
+              description="CA Jitu is a highly skilled and accomplished Charted Accountants with expertise in indirect Taxes. Jitu jain oversees the compliance and dat to day supervision of the firm. He is a partner of the ESR CORPORATE CONSULTANTS and the Indirect Tax Expertise Committee...."
+            />
+>>>>>>> fa427e9475ae55b9be9d600da316ac774555b02b
           </ul>
           <div className="flex flex-col gap-4 lg:flex-row justify-center">
             <button
